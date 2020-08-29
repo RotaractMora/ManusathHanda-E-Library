@@ -88,6 +88,7 @@
 		<a data-toggle="collapse" data-parent="#accordion" href="#collapse4"><button class="button button1">2016</button></a>
 		<a data-toggle="collapse" data-parent="#accordion" href="#collapse5"><button class="button button1">2017</button></a>
 		<a data-toggle="collapse" data-parent="#accordion" href="#collapse6"><button class="button button1">2018</button></a>
+		<a data-toggle="collapse" data-parent="#accordion" href="#collapse7"><button class="button button1">2019</button></a>
 	</div>
 
 		<div class="panel-group" id="accordion">
@@ -278,6 +279,69 @@
   ?>
 	</div>
 				</div>
+			<div class="panel panel-default">
+        <div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse7">2019</a>
+					</h4>
+				</div>
+				<div id="collapse7" class="panel-collapse collapse">
+          <?php
+
+
+  $dir = scandir("./voice_of_humanity_2019_OL_past_papers/buddhism/2019_buddhism/");
+  $c=count($dir);
+  sort($dir,1);
+
+  for ($x = 0; $x < $c; $x++)
+  {
+    $file=$dir[$x];
+      if(strcmp($file,".")!=0 and strcmp($file,"..")!=0)
+      {
+         //echo "<br>";
+         echo '<div class="panel-body" class="raw">';
+         if($x>=11)
+         {
+           echo substr($file,3,strlen($file)-7)."</br>";
+         }
+         else
+         {
+          echo substr($file,2,strlen($file)-6)."</br>";
+         }
+
+
+  						echo'<audio controls preload="none">';
+  							echo'<source src='.'"http://rotaractmora.org/rotaractmora_static/MH/voice_of_humanity_2019_OL_past_papers/buddhism/2019_buddhism/'. $file .'"';
+
+  							echo ' type="audio/mp3">';
+  							echo'Your browser does not support the audio element.';
+  						echo'</audio>';
+							echo '<script type="text/javascript" src="test.js"></script>';
+
+
+
+
+              echo'<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/buddhism/2019_buddhism/'. $file.'"';
+              echo'>';
+                echo '<img src="http://rotaractmora.org/rotaractmora_static/MH/downloads-icon.png">';
+              echo '</a>';
+
+
+
+
+
+  		echo'</div>';
+      }
+
+  }
+
+  //close
+
+
+  ?>
+	</div>
+				</div>
+
 
 			</div>
 
