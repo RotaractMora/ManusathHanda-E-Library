@@ -89,20 +89,21 @@
 		<a data-toggle="collapse" data-parent="#accordion" href="#collapse4"><button class="button button1">2016</button></a>
 		<a data-toggle="collapse" data-parent="#accordion" href="#collapse5"><button class="button button1">2017</button></a>
 		<a data-toggle="collapse" data-parent="#accordion" href="#collapse6"><button class="button button1">2018</button></a>
+		<a data-toggle="collapse" data-parent="#accordion" href="#collapse7"><button class="button button1">2019</button></a>
 	</div>
 
 		<div class="panel-group" id="accordion">
 			<div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">2016</a>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">2019</a>
           </h4>
         </div>
-        <div id="collapse4" class="panel-collapse collapse">
+        <div id="collapse7" class="panel-collapse collapse">
     <?php
 
 
-    $dir = scandir("./voice_of_humanity_2019_OL_past_papers/Home_science/2016_home_science/");
+    $dir = scandir("./voice_of_humanity_2019_OL_past_papers/Home_science/2019_home_science/");
     $c=count($dir);
     sort($dir,1);
 
@@ -123,7 +124,7 @@
 
 
               echo'<audio controls preload="none">';
-                echo'<source src='.'"http://rotaractmora.org/rotaractmora_static/MH/voice_of_humanity_2019_OL_past_papers/Home_science/2016_home_science/'. $file .'"';
+                echo'<source src='.'"http://rotaractmora.org/rotaractmora_static/MH/voice_of_humanity_2019_OL_past_papers/Home_science/2019_home_science/'. $file .'"';
 
                 echo ' type="audio/mp3">';
                 echo'Your browser does not support the audio element.';
@@ -133,7 +134,7 @@
 
 
 
-              echo'<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/Home_science/2016_home_science/'. $file.'"';
+              echo'<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/Home_science/2019_home_science/'. $file.'"';
               echo'>';
                 echo '<img src="http://rotaractmora.org/rotaractmora_static/MH/downloads-icon.png">';
               echo '</a>';
