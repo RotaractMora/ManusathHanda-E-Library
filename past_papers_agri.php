@@ -86,7 +86,7 @@
 		<div>
 			<a data-toggle="collapse" data-parent="#accordion" href="#collapse2016"><button class="button button1">2016</button></a>
 			<a data-toggle="collapse" data-parent="#accordion" href="#collapse2018"><button class="button button1">2018</button></a>
-			<a data-toggle="collapse" data-parent="#accordion" href="#collapse2018"><button class="button button1">2019</button></a>
+			<a data-toggle="collapse" data-parent="#accordion" href="#collapse2019"><button class="button button1">2019</button></a>
 		</div>
 
 		<div class="panel-group" id="accordion">
