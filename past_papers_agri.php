@@ -117,7 +117,7 @@
 
 
 							echo '<audio controls preload="none">';
-							echo '<source src=' . '"http://rotaractmora.org/rotaractmora_static/MH/voice_of_humanity_2019_OL_past_papers/Agri/Agri_2016/' . $file . '"';
+							echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/Agri/Agri_2016/' . $file . '"';
 
 							echo ' type="audio/mp3">';
 							echo 'Your browser does not support the audio element.';
@@ -129,7 +129,7 @@
 
 							echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/Agri/Agri_2016/' . $file . '"';
 							echo '>';
-							echo '<img src="http://rotaractmora.org/rotaractmora_static/MH/downloads-icon.png">';
+							echo '<img src="downloads-icon.png">';
 							echo '</a>';
 
 
@@ -173,7 +173,7 @@
 								echo substr($file, 2, strlen($file) - 6) . "</br>";
 							}
 							echo '<audio controls preload="none">';
-							echo '<source src=' . '"http://rotaractmora.org/rotaractmora_static/MH/voice_of_humanity_2019_OL_past_papers/Agri/Agri_2018/' . $file . '"';
+							echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/Agri/Agri_2018/' . $file . '"';
 
 							echo ' type="audio/mp3">';
 							echo 'Your browser does not support the audio element.';
@@ -185,7 +185,7 @@
 
 							echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/Agri/Agri_2018/' . $file . '"';
 							echo '>';
-							echo '<img src="http://rotaractmora.org/rotaractmora_static/MH/downloads-icon.png">';
+							echo '<img src="downloads-icon.png">';
 							echo '</a>';
 
 
@@ -230,7 +230,7 @@
 
 
 							echo '<audio controls preload="none">';
-							echo '<source src=' . '"http://rotaractmora.org/rotaractmora_static/MH/voice_of_humanity_2019_OL_past_papers/Agri/Agri_2019/' . $file . '"';
+							echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/Agri/Agri_2019/' . $file . '"';
 
 							echo ' type="audio/mp3">';
 							echo 'Your browser does not support the audio element.';
@@ -242,7 +242,7 @@
 
 							echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/Agri/Agri_2019/' . $file . '"';
 							echo '>';
-							echo '<img src="http://rotaractmora.org/rotaractmora_static/MH/downloads-icon.png">';
+							echo '<img src="downloads-icon.png">';
 							echo '</a>';
 
 

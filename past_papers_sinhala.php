@@ -130,7 +130,7 @@
 
 
               echo'<audio controls preload="none">';
-                echo'<source src='.'"http://rotaractmora.org/rotaractmora_static/MH/voice_of_humanity_2019_OL_past_papers/sinhala/2016_sinhala/'. $file .'"';
+                echo'<source src='.'"voice_of_humanity_2019_OL_past_papers/sinhala/2016_sinhala/'. $file .'"';
 
                 echo ' type="audio/mp3">';
                 echo'Your browser does not support the audio element.';
@@ -142,7 +142,7 @@
 
               echo'<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/sinhala/2016_sinhala/'. $file.'"';
               echo'>';
-                echo '<img src="http://rotaractmora.org/rotaractmora_static/MH/downloads-icon.png">';
+                echo '<img src="downloads-icon.png">';
               echo '</a>';
 
 
@@ -195,7 +195,7 @@
 
 
               echo'<audio controls preload="none">';
-                echo'<source src='.'"http://rotaractmora.org/rotaractmora_static/MH/voice_of_humanity_2019_OL_past_papers/sinhala/2017_sinhala/'. $file .'"';
+                echo'<source src='.'"voice_of_humanity_2019_OL_past_papers/sinhala/2017_sinhala/'. $file .'"';
 
                 echo ' type="audio/mp3">';
                 echo'Your browser does not support the audio element.';
@@ -208,7 +208,7 @@
 
               echo'<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/sinhala/2017_sinhala/'. $file.'"';
               echo'>';
-                echo '<img src="http://rotaractmora.org/rotaractmora_static/MH/downloads-icon.png">';
+                echo '<img src="downloads-icon.png">';
               echo '</a>';
 
 
@@ -259,7 +259,7 @@
 
 
               echo'<audio controls preload="none">';
-                echo'<source src='.'"http://rotaractmora.org/rotaractmora_static/MH/voice_of_humanity_2019_OL_past_papers/sinhala/2018_sinhala/'. $file .'"';
+                echo'<source src='.'"voice_of_humanity_2019_OL_past_papers/sinhala/2018_sinhala/'. $file .'"';
 
                 echo ' type="audio/mp3">';
                 echo'Your browser does not support the audio element.';
@@ -271,7 +271,7 @@
 
               echo'<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/sinhala/2018_sinhala/'. $file.'"';
               echo'>';
-                echo '<img src="http://rotaractmora.org/rotaractmora_static/MH/downloads-icon.png">';
+                echo '<img src="downloads-icon.png">';
               echo '</a>';
 
 
@@ -325,7 +325,7 @@
 
 
               echo'<audio controls preload="none">';
-                echo'<source src='.'"http://rotaractmora.org/rotaractmora_static/MH/voice_of_humanity_2019_OL_past_papers/sinhala/2019_sinhala/'. $file .'"';
+                echo'<source src='.'"voice_of_humanity_2019_OL_past_papers/sinhala/2019_sinhala/'. $file .'"';
 
                 echo ' type="audio/mp3">';
                 echo'Your browser does not support the audio element.';
@@ -337,7 +337,7 @@
 
               echo'<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/sinhala/2019_sinhala/'. $file.'"';
               echo'>';
-                echo '<img src="http://rotaractmora.org/rotaractmora_static/MH/downloads-icon.png">';
+                echo '<img src="downloads-icon.png">';
               echo '</a>';
 
 
