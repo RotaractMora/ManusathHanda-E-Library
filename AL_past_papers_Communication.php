@@ -7,155 +7,156 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-	<title>RotaractMora Manusath Handa</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<link rel="icon" href="./images/logosrota/New folder (4)//Colour logo tab_icon.png">
+    <title>RotaractMora Manusath Handa</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="icon" href="./images/logosrota/New folder (4)//Colour logo tab_icon.png">
     <link rel="stylesheet" href="./assets/css/main.css" />
-    
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144825636-4"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'UA-144825636-4');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-144825636-4');
     </script>
 
     <!-- Hotjar Tracking Code for http://manusathhanda.rotaractmora.org -->
     <script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:1811011,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        (function(h, o, t, j, a, r) {
+            h.hj = h.hj || function() {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {
+                hjid: 1811011,
+                hjsv: 6
+            };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
             a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
 </head>
 
 <body class="is-preload">
-	<!-- Header -->
-	<header id="header">
-		<div>
-			<a href="./index.html">
-				<img src="./images/logosrota/New folder (4)/New folder/logo transperant3.png" class="header-logo2" />
-			</a>
-		</div>
-		<div></div>
-		<nav id="pc">
-			<a href="./index.html">Home</a>
-			<a href="magazines.html">Magazines</a>
-			<a href="past_papers.html">Past Papers</a>
-			<a href="team.html">Team</a>
-		</nav>
-		<nav id="a">
-			<a href="#menu"></a>
-		</nav>
-
-	</header>
-
-
-	<nav id="menu">
-		<ul class="links">
-			<li style="-webkit-tap-highlight-color: rgba(0,0,0,0);"><a href="index.html">Home</a></li>
-			<li style="padding-bottom: 2%;"><a href="magazines.html">Magazines</a></li>
-			<li style="padding-bottom: 2%;"><a href="past_papers.html">Past Papers</a></li>
-			<li style="padding-bottom: 2%;"><a href="team.html">Team</a></li>
-		</ul>
-	</nav>
-
-	<!-- Heading -->
-	<section id="audio-page-banner">
-		<p>Past Papers</p>
-	</section>
-
-
-	<!-- Main -->
-	<div class="container">
-		<br />
-		<h2>Select a Communication and Media Studies audiobook to listen to</h2>
-		<p>Click on the expandable items to listen to & download audio questions of past papers.</p>
-		<div>
-		<a data-toggle="collapse" data-parent="#accordion" href="#collapse6"><button class="button button1">2019</button></a>
-	</div>
-
-		<div class="panel-group" id="accordion">
-			<div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">2019</a>
-          </h4>
+    <!-- Header -->
+    <header id="header">
+        <div>
+            <a href="./index.html">
+                <img src="./images/logosrota/New folder (4)/New folder/logo transperant3.png" class="header-logo2" />
+            </a>
         </div>
-        <div id="collapse6" class="panel-collapse collapse">
-    <?php
+        <div></div>
+        <nav id="pc">
+            <a href="./index.html">Home</a>
+            <a href="magazines.html">Magazines</a>
+            <a href="past_papers.html">Past Papers</a>
+            <a href="team.html">Team</a>
+        </nav>
+        <nav id="a">
+            <a href="#menu"></a>
+        </nav>
+
+    </header>
 
 
-    $dir = scandir("./voice_of_humanity_2019_AL_past_papers/Communication/");
-    $c=count($dir);
-    sort($dir,1);
+    <nav id="menu">
+        <ul class="links">
+            <li style="-webkit-tap-highlight-color: rgba(0,0,0,0);"><a href="index.html">Home</a></li>
+            <li style="padding-bottom: 2%;"><a href="magazines.html">Magazines</a></li>
+            <li style="padding-bottom: 2%;"><a href="past_papers.html">Past Papers</a></li>
+            <li style="padding-bottom: 2%;"><a href="team.html">Team</a></li>
+        </ul>
+    </nav>
 
-    for ($x = 0; $x < $c; $x++)
-    {
-    $file=$dir[$x];
-      if(strcmp($file,".")!=0 and strcmp($file,"..")!=0)
-      {
-         echo '<div class="panel-body" class="raw">';
-         if($x>=6)
-         {
-           echo substr($file,0,strlen($file)-4)."</br>";
-         }
-         else
-         {
-          echo substr($file,2,strlen($file)-6)."</br>";
-         }
+    <!-- Heading -->
+    <section id="audio-page-banner">
+        <p>Past Papers</p>
+    </section>
 
 
-              echo'<audio controls preload="none">';
-                echo'<source src='.'"voice_of_humanity_2019_AL_past_papers/Communication/'. $file .'"';
+    <!-- Main -->
+    <div class="container">
+        <br />
+        <h2>Select a Communication and Media Studies audiobook to listen to</h2>
+        <p>Click on the expandable items to listen to & download audio questions of past papers.</p>
+        <div>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse6"><button class="button button1">2019</button></a>
+        </div>
 
-                echo ' type="audio/mp3">';
-                echo'Your browser does not support the audio element.';
-              echo'</audio>';
-							echo '<script type="text/javascript" src="test.js"></script>';
-
-
-
-
-              echo'<a href="download.php?file=./voice_of_humanity_2019_AL_past_papers/Communication/'. $file.'"';
-              echo'>';
-                echo '<img src="downloads-icon.png">';
-              echo '</a>';
-
-
-
-
-
-      echo'</div>';
-      }
-
-    }
-
-    //close
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">2019</a>
+                    </h4>
+                </div>
+                <div id="collapse6" class="panel-collapse collapse">
+                    <?php
 
 
-    ?>
+                    $dir = scandir("./voice_of_humanity_2019_AL_past_papers/Communication/");
+                    $c = count($dir);
+                    sort($dir, 1);
 
-        	  	</div>
-		</div>
-	</div>
-</div>
+                    for ($x = 0; $x < $c; $x++) {
+                        $file = $dir[$x];
+                        if (strcmp($file, ".") != 0 and strcmp($file, "..") != 0) {
+                            echo '<div class="panel-body" class="raw">';
 
-<!-- Footer -->
-<footer id="footer">
+                            echo substr($file, 0, strlen($file) - 4) . "</br>";
+
+
+
+                            echo '<audio controls preload="none">';
+                            echo '<source src=' . '"voice_of_humanity_2019_AL_past_papers/Communication/' . $file . '"';
+
+                            echo ' type="audio/mp3">';
+                            echo 'Your browser does not support the audio element.';
+                            echo '</audio>';
+                            echo '<script type="text/javascript" src="test.js"></script>';
+
+
+
+
+                            echo '<a href="download.php?file=./voice_of_humanity_2019_AL_past_papers/Communication/' . $file . '"';
+                            echo '>';
+                            echo '<img src="downloads-icon.png">';
+                            echo '</a>';
+
+
+
+
+
+                            echo '</div>';
+                        }
+                    }
+
+                    //close
+
+
+                    ?>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
         <div class="inner">
             <div class="content">
                 <section>
@@ -173,11 +174,11 @@
                         </li>
                         <li>
                             <strong>Kaumada Gunasekara</strong>
-                            <br/>
+                            <br />
                             <img src="./images/phone.png" class="footer-phone-icon" />
                             <!--<strong>Post</strong>-->
                             +94 0719560458
-                            <br/>
+                            <br />
                             <img src="./images/email.png" class="footer-email-icon" />
                             <!--<strong>Post</strong>-->
                             kaugunasekara@gmail.com
@@ -192,12 +193,9 @@
                     <ul class="plain ">
                         <li><a href="https://twitter.com/RotaractMora "><i class="icon fa-twitter ">&nbsp;</i>Twitter</a>
                         </li>
-                        <li><a href="https://www.facebook.com/rotaractmora/ "><i
-									class="icon fa-facebook ">&nbsp;</i>Facebook</a></li>
-                        <li><a href="https://www.instagram.com/rotaractmora/ "><i
-									class="icon fa-instagram ">&nbsp;</i>Instagram</a></li>
-                        <li><a href="https://www.linkedin.com/company/rotaract-club-of-university-of-moratuwa/about/ "><i
-									class="icon fa fa-linkedin-square ">&nbsp;</i>LinkedIn</a></li>
+                        <li><a href="https://www.facebook.com/rotaractmora/ "><i class="icon fa-facebook ">&nbsp;</i>Facebook</a></li>
+                        <li><a href="https://www.instagram.com/rotaractmora/ "><i class="icon fa-instagram ">&nbsp;</i>Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/company/rotaract-club-of-university-of-moratuwa/about/ "><i class="icon fa fa-linkedin-square ">&nbsp;</i>LinkedIn</a></li>
                     </ul>
                 </section>
             </div>
