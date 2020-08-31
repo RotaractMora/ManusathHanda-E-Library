@@ -300,15 +300,7 @@
       {
          //echo "<br>";
          echo '<div class="panel-body" class="raw">';
-         if($x>=11)
-         {
-           echo substr($file,3,strlen($file)-7)."</br>";
-         }
-         else
-         {
-          echo substr($file,2,strlen($file)-6)."</br>";
-         }
-
+         echo substr($file, 0, strlen($file) - 4) . "</br>";
 
   						echo'<audio controls preload="none">';
   							echo'<source src='.'"voice_of_humanity_2019_OL_past_papers/buddhism/2019_buddhism/'. $file .'"';
