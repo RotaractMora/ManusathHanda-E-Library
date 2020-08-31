@@ -109,14 +109,10 @@
       if(strcmp($file,".")!=0 and strcmp($file,"..")!=0)
       {
          echo '<div class="panel-body" class="raw">';
-         if($x>=6)
-         {
+         
            echo substr($file,0,strlen($file)-4)."</br>";
-         }
-         else
-         {
-          echo substr($file,2,strlen($file)-6)."</br>";
-         }
+         
+         
 
 
               echo'<audio controls preload="none">';
