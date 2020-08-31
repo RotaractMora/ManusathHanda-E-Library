@@ -127,7 +127,7 @@
 
 
               echo '<audio controls preload="none">';
-              echo '<source src=' . '"http://rotaractmora.org/rotaractmora_static/MH/voice_of_humanity_2019_OL_past_papers/Home_science/2016_home_science/' . $file . '"';
+              echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers/Home_science/2016_home_science/' . $file . '"';
 
               echo ' type="audio/mp3">';
               echo 'Your browser does not support the audio element.';
@@ -139,7 +139,7 @@
 
               echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/Home_science/2016_home_science/' . $file . '"';
               echo '>';
-              echo '<img src="http://rotaractmora.org/rotaractmora_static/MH/downloads-icon.png">';
+              echo '<img src="downloads-icon.png">';
               echo '</a>';
 
 
@@ -184,7 +184,7 @@
 
 
               echo '<audio controls preload="none">';
-              echo '<source src=' . '"http://rotaractmora.org/rotaractmora_static/MH/voice_of_humanity_2019_OL_past_papers/Home_science/2017_home_science/' . $file . '"';
+              echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers/Home_science/2017_home_science/' . $file . '"';
 
               echo ' type="audio/mp3">';
               echo 'Your browser does not support the audio element.';
@@ -196,7 +196,7 @@
 
               echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/Home_science/2017_home_science/' . $file . '"';
               echo '>';
-              echo '<img src="http://rotaractmora.org/rotaractmora_static/MH/downloads-icon.png">';
+              echo '<img src="downloads-icon.png">';
               echo '</a>';
 
 
@@ -241,7 +241,7 @@
 
 
               echo '<audio controls preload="none">';
-              echo '<source src=' . '"http://rotaractmora.org/rotaractmora_static/MH/voice_of_humanity_2019_OL_past_papers/Home_science/2018_home_science/' . $file . '"';
+              echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers/Home_science/2018_home_science/' . $file . '"';
 
               echo ' type="audio/mp3">';
               echo 'Your browser does not support the audio element.';
@@ -253,7 +253,7 @@
 
               echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/Home_science/2018_home_science/' . $file . '"';
               echo '>';
-              echo '<img src="http://rotaractmora.org/rotaractmora_static/MH/downloads-icon.png">';
+              echo '<img src="downloads-icon.png">';
               echo '</a>';
 
 
@@ -300,7 +300,7 @@
 
 
               echo '<audio controls preload="none">';
-              echo '<source src=' . '"http://rotaractmora.org/rotaractmora_static/MH/voice_of_humanity_2019_OL_past_papers/Home_science/2017_home_science/' . $file . '"';
+              echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers/Home_science/2019_home_science/' . $file . '"';
 
               echo ' type="audio/mp3">';
               echo 'Your browser does not support the audio element.';
@@ -310,9 +310,9 @@
 
 
 
-              echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/Home_science/2017_home_science/' . $file . '"';
+              echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/Home_science/2019_home_science/' . $file . '"';
               echo '>';
-              echo '<img src="http://rotaractmora.org/rotaractmora_static/MH/downloads-icon.png">';
+              echo '<img src="downloads-icon.png">';
               echo '</a>';
 
 
