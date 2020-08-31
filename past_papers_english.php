@@ -7,15 +7,18 @@
 <html>
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144825636-4"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144825636-4"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'UA-144825636-4');
-    </script>
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-144825636-4');
+	</script>
 
 	<!-- Hotjar Tracking Code for http://manusathhanda.rotaractmora.org -->
 	<script>
@@ -34,7 +37,7 @@
 			a.appendChild(r);
 		})(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
 	</script>
-	
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -267,11 +270,10 @@
 			</div>
 
 
-		<div class="panel-group" id="accordion">
 			<div class="panel panel-default">
 				<div class="panel-heading">
 					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#collapse7">2016</a>
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse7">2019</a>
 					</h4>
 				</div>
 				<div id="collapse7" class="panel-collapse collapse">
@@ -330,82 +332,79 @@
 	</div>
 
 	<!-- Footer -->
-    <footer id="footer">
-        <div class="inner">
-            <div class="content">
-                <section>
-                    <h4>About Us</h4>
-                    <p>Rotaract Mora has grown tremendously to a present member base of over 250 members. Rotaract Mora over the years has earned much recognition in the Rotaract movement, bagging multiple local, as well as international awards, and doing
-                        projects with high quality, sustainability and continuity.</p>
-                </section>
-                <section>
-                    <h4>Reach Us</h4>
-                    <ul class="alt">
-                        <li>
-                            <img src="./images/post.png" class="footer-post-icon" />
-                            <!--<strong>Post</strong>-->
-                            <br /> Rotaract Club of University of Moratuwa,<br> University of Moratuwa,<br> Bandaranayake Mawatha,<br> Moratuwa. <br> 10400
-                        </li>
-                        <li>
-                            <strong>Kaumada Gunasekara</strong>
-                            <br/>
-                            <img src="./images/phone.png" class="footer-phone-icon" />
-                            <!--<strong>Post</strong>-->
-                            +94 0719560458
-                            <br/>
-                            <img src="./images/email.png" class="footer-email-icon" />
-                            <!--<strong>Post</strong>-->
-                            kaugunasekara@gmail.com
-                        </li>
-                        <!--<li><a href="# ">Etiam vel lorem sed amet.</a></li>
+	<footer id="footer">
+		<div class="inner">
+			<div class="content">
+				<section>
+					<h4>About Us</h4>
+					<p>Rotaract Mora has grown tremendously to a present member base of over 250 members. Rotaract Mora over the years has earned much recognition in the Rotaract movement, bagging multiple local, as well as international awards, and doing
+						projects with high quality, sustainability and continuity.</p>
+				</section>
+				<section>
+					<h4>Reach Us</h4>
+					<ul class="alt">
+						<li>
+							<img src="./images/post.png" class="footer-post-icon" />
+							<!--<strong>Post</strong>-->
+							<br /> Rotaract Club of University of Moratuwa,<br> University of Moratuwa,<br> Bandaranayake Mawatha,<br> Moratuwa. <br> 10400
+						</li>
+						<li>
+							<strong>Kaumada Gunasekara</strong>
+							<br />
+							<img src="./images/phone.png" class="footer-phone-icon" />
+							<!--<strong>Post</strong>-->
+							+94 0719560458
+							<br />
+							<img src="./images/email.png" class="footer-email-icon" />
+							<!--<strong>Post</strong>-->
+							kaugunasekara@gmail.com
+						</li>
+						<!--<li><a href="# ">Etiam vel lorem sed amet.</a></li>
 								<li><a href="# ">Felis enim feugiat viverra.</a></li>
 								<li><a href="# ">Dolor pulvinar magna etiam.</a></li>-->
-                    </ul>
-                </section>
-                <section>
-                    <h4>Follow Us</h4>
-                    <ul class="plain ">
-                        <li><a href="https://twitter.com/RotaractMora "><i class="icon fa-twitter ">&nbsp;</i>Twitter</a>
-                        </li>
-                        <li><a href="https://www.facebook.com/rotaractmora/ "><i
-									class="icon fa-facebook ">&nbsp;</i>Facebook</a></li>
-                        <li><a href="https://www.instagram.com/rotaractmora/ "><i
-									class="icon fa-instagram ">&nbsp;</i>Instagram</a></li>
-                        <li><a href="https://www.linkedin.com/company/rotaract-club-of-university-of-moratuwa/about/ "><i
-									class="icon fa fa-linkedin-square ">&nbsp;</i>LinkedIn</a></li>
-                    </ul>
-                </section>
-            </div>
-            <div class="copyright ">
-                <!--&copy; RotaractMora. Photos <a href="https://unsplash.co ">Unsplash</a>, Video <a href="https://coverr.co ">Coverr</a>.-->
-                &copy; 2020
-                <a href="http://rotaractmora.org ">
-                    <img src="./images/logosrota/New folder (4)/white logo2.png " class="footer-rota-logo" />
-                </a>
-            </div>
+					</ul>
+				</section>
+				<section>
+					<h4>Follow Us</h4>
+					<ul class="plain ">
+						<li><a href="https://twitter.com/RotaractMora "><i class="icon fa-twitter ">&nbsp;</i>Twitter</a>
+						</li>
+						<li><a href="https://www.facebook.com/rotaractmora/ "><i class="icon fa-facebook ">&nbsp;</i>Facebook</a></li>
+						<li><a href="https://www.instagram.com/rotaractmora/ "><i class="icon fa-instagram ">&nbsp;</i>Instagram</a></li>
+						<li><a href="https://www.linkedin.com/company/rotaract-club-of-university-of-moratuwa/about/ "><i class="icon fa fa-linkedin-square ">&nbsp;</i>LinkedIn</a></li>
+					</ul>
+				</section>
+			</div>
+			<div class="copyright ">
+				<!--&copy; RotaractMora. Photos <a href="https://unsplash.co ">Unsplash</a>, Video <a href="https://coverr.co ">Coverr</a>.-->
+				&copy; 2020
+				<a href="http://rotaractmora.org ">
+					<img src="./images/logosrota/New folder (4)/white logo2.png " class="footer-rota-logo" />
+				</a>
+			</div>
 
-        </div>
-    </footer>
+		</div>
+	</footer>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js "></script>
-    <script src="assets/js/browser.min.js "></script>
-    <script src="assets/js/breakpoints.min.js "></script>
-    <script src="assets/js/util.js "></script>
-    <script src="assets/js/main.js "></script>
-    <script>
-        function navigateToRotaMora() {
-            console.log("method ");
-            window.location.href = 'http://rotaractmora.org';
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js "></script>
+	<script src="assets/js/browser.min.js "></script>
+	<script src="assets/js/breakpoints.min.js "></script>
+	<script src="assets/js/util.js "></script>
+	<script src="assets/js/main.js "></script>
+	<script>
+		function navigateToRotaMora() {
+			console.log("method ");
+			window.location.href = 'http://rotaractmora.org';
 
-        }
+		}
 
-        function navigateToIndex() {
-            console.log("method ");
-            window.location.href = './index.html';
+		function navigateToIndex() {
+			console.log("method ");
+			window.location.href = './index.html';
 
-        }
-    </script>
+		}
+	</script>
 
 </body>
 
