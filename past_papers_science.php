@@ -294,11 +294,7 @@
             $file = $dir[$x];
             if (strcmp($file, ".") != 0 and strcmp($file, "..") != 0) {
               echo '<div class="panel-body" class="raw">';
-              if ($x >= 11) {
-                echo substr($file, 3, strlen($file) - 7) . "</br>";
-              } else {
-                echo substr($file, 2, strlen($file) - 6) . "</br>";
-              }
+              echo substr($file, 0, strlen($file) - 4) . "</br>";
 
 
               echo '<audio controls preload="none">';
