@@ -60,7 +60,7 @@
 
 
 							echo '<audio controls preload="none">';
-							echo '<source src=' . '"http://manusathhanda.rotaractmora.org/voice_of_humanity_2019_OL_past_papers/Agri/Agri_2016/' . $file . '"';
+							echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/Agri/Agri_2016/' . $file . '"';
 
 							echo ' type="audio/mp3">';
 							echo 'Your browser does not support the audio element.';
@@ -72,7 +72,7 @@
 
 							echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/Agri/Agri_2016/' . $file . '"';
 							echo '>';
-							echo '<img src="http://manusathhanda.rotaractmora.org/downloads-icon.png">';
+							echo '<img src="downloads-icon.png">';
 							echo '</a>';
 
 
@@ -116,7 +116,7 @@
 								echo substr($file, 2, strlen($file) - 6) . "</br>";
 							}
 							echo '<audio controls preload="none">';
-							echo '<source src=' . '"http://manusathhanda.rotaractmora.org/voice_of_humanity_2019_OL_past_papers/Agri/Agri_2018/' . $file . '"';
+							echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/Agri/Agri_2018/' . $file . '"';
 
 							echo ' type="audio/mp3">';
 							echo 'Your browser does not support the audio element.';
@@ -128,7 +128,7 @@
 
 							echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/Agri/Agri_2018/' . $file . '"';
 							echo '>';
-							echo '<img src="http://manusathhanda.rotaractmora.org/downloads-icon.png">';
+							echo '<img src="downloads-icon.png">';
 							echo '</a>';
 
 
@@ -145,11 +145,11 @@
 					?>
 
 				</div>
-		<div class="panel-group" id="accordion">
+			</div>
 			<div class="panel panel-default">
 				<div class="panel-heading">
 					<h4 class="panel-title">
-						<a data-toggle="collapse" data-parent="#accordion" href="#collapse2019">2016</a>
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse2019">2019</a>
 					</h4>
 				</div>
 				<div id="collapse2019" class="panel-collapse collapse">
@@ -165,15 +165,11 @@
 						if (strcmp($file, ".") != 0 and strcmp($file, "..") != 0) {
 							//echo "<br>";
 							echo '<div class="panel-body" class="raw">';
-							if ($x >= 11) {
-								echo substr($file, 3, strlen($file) - 7) . "</br>";
-							} else {
-								echo substr($file, 2, strlen($file) - 6) . "</br>";
-							}
+							echo substr($file, 0, strlen($file) - 4) . "</br>";
 
 
 							echo '<audio controls preload="none">';
-							echo '<source src=' . '"http://manusathhanda.rotaractmora.org/voice_of_humanity_2019_OL_past_papers/Agri/Agri_2019/' . $file . '"';
+							echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/Agri/Agri_2019/' . $file . '"';
 
 							echo ' type="audio/mp3">';
 							echo 'Your browser does not support the audio element.';
@@ -185,7 +181,7 @@
 
 							echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/Agri/Agri_2019/' . $file . '"';
 							echo '>';
-							echo '<img src="http://manusathhanda.rotaractmora.org/downloads-icon.png">';
+							echo '<img src="downloads-icon.png">';
 							echo '</a>';
 
 
@@ -205,7 +201,6 @@
 				</div>
 			</div>
 
-			</div>
 		</div>
 
 

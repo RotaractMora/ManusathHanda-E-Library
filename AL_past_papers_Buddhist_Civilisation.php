@@ -43,119 +43,111 @@
 </head>
 
 <body class="is-preload">
-	<!-- Header -->
-	<header id="header">
-		<div>
-			<a href="./index.php">
-				<img src="./images/logosrota/New folder (4)/New folder/logo transperant3.png" class="header-logo2" />
-			</a>
-		</div>
-		<div></div>
-		<nav id="pc">
-			<a href="./index.php">Home</a>
-			<a href="magazines.php">Magazines</a>
-			<a href="past_papers.php">Past Papers</a>
-			<a href="team.php">Team</a>
-		</nav>
-		<nav id="a">
-			<a href="#menu"></a>
-		</nav>
-
-	</header>
-
-
-	<nav id="menu">
-		<ul class="links">
-			<li style="-webkit-tap-highlight-color: rgba(0,0,0,0);"><a href="index.php">Home</a></li>
-			<li style="padding-bottom: 2%;"><a href="magazines.php">Magazines</a></li>
-			<li style="padding-bottom: 2%;"><a href="past_papers.php">Past Papers</a></li>
-			<li style="padding-bottom: 2%;"><a href="team.php">Team</a></li>
-		</ul>
-	</nav>
-
-	<!-- Heading -->
-	<section id="audio-page-banner">
-		<p>Past Papers</p>
-	</section>
-
-
-	<!-- Main -->
-	<div class="container">
-		<br />
-		<h2>Select a Buddhist Civilisation audiobook to listen to</h2>
-		<p>Click on the expandable items to listen to & download audio questions of past papers.</p>
-		<div>
-		<a data-toggle="collapse" data-parent="#accordion" href="#collapse6"><button class="button button1">2019</button></a>
-	</div>
-
-		<div class="panel-group" id="accordion">
-			<div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">2019</a>
-          </h4>
+    <!-- Header -->
+    <header id="header">
+        <div>
+            <a href="./index.html">
+                <img src="./images/logosrota/New folder (4)/New folder/logo transperant3.png" class="header-logo2" />
+            </a>
         </div>
-        <div id="collapse6" class="panel-collapse collapse">
-    <?php
+        <div></div>
+        <nav id="pc">
+            <a href="./index.html">Home</a>
+            <a href="magazines.html">Magazines</a>
+            <a href="past_papers.html">Past Papers</a>
+            <a href="team.html">Team</a>
+        </nav>
+        <nav id="a">
+            <a href="#menu"></a>
+        </nav>
+
+    </header>
 
 
-    $dir = scandir("./voice_of_humanity_2019_AL_past_papers/Buddhist_Civilisation/");
-    $c=count($dir);
-    sort($dir,1);
+    <nav id="menu">
+        <ul class="links">
+            <li style="-webkit-tap-highlight-color: rgba(0,0,0,0);"><a href="index.html">Home</a></li>
+            <li style="padding-bottom: 2%;"><a href="magazines.html">Magazines</a></li>
+            <li style="padding-bottom: 2%;"><a href="past_papers.html">Past Papers</a></li>
+            <li style="padding-bottom: 2%;"><a href="team.html">Team</a></li>
+        </ul>
+    </nav>
 
-    for ($x = 0; $x < $c; $x++)
-    {
-    $file=$dir[$x];
-      if(strcmp($file,".")!=0 and strcmp($file,"..")!=0)
-      {
-         echo '<div class="panel-body" class="raw">';
-         if($x>=6)
-         {
-           echo substr($file,0,strlen($file)-4)."</br>";
-         }
-         else
-         {
-          echo substr($file,2,strlen($file)-6)."</br>";
-         }
+    <!-- Heading -->
+    <section id="audio-page-banner">
+        <p>Past Papers</p>
+    </section>
 
 
-              echo'<audio controls preload="none">';
-                echo'<source src='.'"http://manusathhanda.rotaractmora.org/voice_of_humanity_2019_AL_past_papers/Buddhist_Civilisation/'. $file .'"';
+    <!-- Main -->
+    <div class="container">
+        <br />
+        <h2>Select a Buddhist Civilisation audiobook to listen to</h2>
+        <p>Click on the expandable items to listen to & download audio questions of past papers.</p>
+        <div>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse6"><button class="button button1">2019</button></a>
+        </div>
 
-                echo ' type="audio/mp3">';
-                echo'Your browser does not support the audio element.';
-              echo'</audio>';
-							echo '<script type="text/javascript" src="test.js"></script>';
-
-
-
-
-              echo'<a href="download.php?file=./voice_of_humanity_2019_AL_past_papers/Buddhist_Civilisation/'. $file.'"';
-              echo'>';
-                echo '<img src="http://manusathhanda.rotaractmora.org/downloads-icon.png">';
-              echo '</a>';
-
-
-
-
-
-      echo'</div>';
-      }
-
-    }
-
-    //close
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">2019</a>
+                    </h4>
+                </div>
+                <div id="collapse6" class="panel-collapse collapse">
+                    <?php
 
 
-    ?>
+                    $dir = scandir("./voice_of_humanity_2019_AL_past_papers/Buddhist_Civilisation/");
+                    $c = count($dir);
+                    sort($dir, 1);
 
-        	  	</div>
-		</div>
-	</div>
-</div>
+                    for ($x = 0; $x < $c; $x++) {
+                        $file = $dir[$x];
+                        if (strcmp($file, ".") != 0 and strcmp($file, "..") != 0) {
+                            echo '<div class="panel-body" class="raw">';
 
-<!-- Footer -->
-<footer id="footer">
+                            echo substr($file, 0, strlen($file) - 4) . "</br>";
+
+
+
+                            echo '<audio controls preload="none">';
+                            echo '<source src=' . '"voice_of_humanity_2019_AL_past_papers/Buddhist_Civilisation/' . $file . '"';
+
+                            echo ' type="audio/mp3">';
+                            echo 'Your browser does not support the audio element.';
+                            echo '</audio>';
+                            echo '<script type="text/javascript" src="test.js"></script>';
+
+
+
+
+                            echo '<a href="download.php?file=./voice_of_humanity_2019_AL_past_papers/Buddhist_Civilisation/' . $file . '"';
+                            echo '>';
+                            echo '<img src="downloads-icon.png">';
+                            echo '</a>';
+
+
+
+
+
+                            echo '</div>';
+                        }
+                    }
+
+                    //close
+
+
+                    ?>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
         <div class="inner">
             <div class="content">
                 <section>
@@ -192,12 +184,9 @@
                     <ul class="plain ">
                         <li><a href="https://twitter.com/RotaractMora "><i class="icon fa-twitter ">&nbsp;</i>Twitter</a>
                         </li>
-                        <li><a href="https://www.facebook.com/rotaractmora/ "><i
-									class="icon fa-facebook ">&nbsp;</i>Facebook</a></li>
-                        <li><a href="https://www.instagram.com/rotaractmora/ "><i
-									class="icon fa-instagram ">&nbsp;</i>Instagram</a></li>
-                        <li><a href="https://www.linkedin.com/company/rotaract-club-of-university-of-moratuwa/about/ "><i
-									class="icon fa fa-linkedin-square ">&nbsp;</i>LinkedIn</a></li>
+                        <li><a href="https://www.facebook.com/rotaractmora/ "><i class="icon fa-facebook ">&nbsp;</i>Facebook</a></li>
+                        <li><a href="https://www.instagram.com/rotaractmora/ "><i class="icon fa-instagram ">&nbsp;</i>Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/company/rotaract-club-of-university-of-moratuwa/about/ "><i class="icon fa fa-linkedin-square ">&nbsp;</i>LinkedIn</a></li>
                     </ul>
                 </section>
             </div>

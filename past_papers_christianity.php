@@ -65,7 +65,7 @@
 
 
               echo'<audio controls preload="none">';
-                echo'<source src='.'"http://manusathhanda.rotaractmora.org/voice_of_humanity_2019_OL_past_papers/christianity/christianity_2016/'. $file .'"';
+                echo'<source src='.'"voice_of_humanity_2019_OL_past_papers/christianity/christianity_2016/'. $file .'"';
 
                 echo ' type="audio/mp3">';
                 echo'Your browser does not support the audio element.';
@@ -77,7 +77,7 @@
 
               echo'<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/christianity/christianity_2016/'. $file.'"';
               echo'>';
-                echo '<img src="http://manusathhanda.rotaractmora.org/downloads-icon.png">';
+                echo '<img src="downloads-icon.png">';
               echo '</a>';
 
 
@@ -128,7 +128,7 @@
 
 
               echo'<audio controls preload="none">';
-                echo'<source src='.'"http://manusathhanda.rotaractmora.org/voice_of_humanity_2019_OL_past_papers/christianity/christianity_2018/'. $file .'"';
+                echo'<source src='.'"voice_of_humanity_2019_OL_past_papers/christianity/christianity_2018/'. $file .'"';
 
                 echo ' type="audio/mp3">';
                 echo'Your browser does not support the audio element.';
@@ -140,7 +140,7 @@
 
               echo'<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/christianity/christianity_2018/'. $file.'"';
               echo'>';
-                echo '<img src="http://manusathhanda.rotaractmora.org/downloads-icon.png">';
+                echo '<img src="downloads-icon.png">';
               echo '</a>';
 
 
@@ -181,18 +181,11 @@
       if(strcmp($file,".")!=0 and strcmp($file,"..")!=0)
       {
          echo '<div class="panel-body" class="raw">';
-         if($x>=11)
-         {
-           echo substr($file,3,strlen($file)-7)."</br>";
-         }
-         else
-         {
-          echo substr($file,2,strlen($file)-6)."</br>";
-         }
+         echo substr($file, 0, strlen($file) - 4) . "</br>";
 
 
               echo'<audio controls preload="none">';
-                echo'<source src='.'"http://manusathhanda.rotaractmora.org/voice_of_humanity_2019_OL_past_papers/christianity/christianity_2019/'. $file .'"';
+                echo'<source src='.'"voice_of_humanity_2019_OL_past_papers/christianity/christianity_2019/'. $file .'"';
 
                 echo ' type="audio/mp3">';
                 echo'Your browser does not support the audio element.';
@@ -204,7 +197,7 @@
 
               echo'<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/christianity/christianity_2019/'. $file.'"';
               echo'>';
-                echo '<img src="http://manusathhanda.rotaractmora.org/downloads-icon.png">';
+                echo '<img src="downloads-icon.png">';
               echo '</a>';
 
 

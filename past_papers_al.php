@@ -37,7 +37,7 @@
                     <div class="content" style="cursor: pointer;" onclick="window.location='./AL_past_papers_Communication.php';">
                         <header>
                             <img src="./images/audiobook-icon-66.png" width="50%" />
-                            <h3>Communication</h3>
+                            <h3>Communication & Media Studies</h3>
                         </header>
                     </div>
                 </section>
