@@ -22,7 +22,7 @@
             <header class="special">
                 <h2>Select a Subject</h2>
             </header>
-            <div class="highlights">
+            <div class="highlights" styles="justify-content: center;">
                 <!--Selectable categories-->
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./past_papers_ol.php';">
