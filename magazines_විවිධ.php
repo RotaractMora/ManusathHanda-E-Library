@@ -1,3 +1,8 @@
+<?php
+    include_once('header.php');
+    include_once('navbar.php');
+?>
+
 <!DOCTYPE HTML>
 <!--
 	Industrious by TEMPLATED
@@ -5,79 +10,11 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
-
-<head>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-	<title>RotaractMora Manusath Handa</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<link rel="icon" href="./images/logosrota/New folder (4)//Colour logo tab_icon.png">
-    <link rel="stylesheet" href="./assets/css/main.css" />
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144825636-4"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-144825636-4');
-    </script>
-
-    <!-- Hotjar Tracking Code for http://manusathhanda.rotaractmora.org -->
-    <script>
-        (function(h, o, t, j, a, r) {
-            h.hj = h.hj || function() {
-                (h.hj.q = h.hj.q || []).push(arguments)
-            };
-            h._hjSettings = {
-                hjid: 1811011,
-                hjsv: 6
-            };
-            a = o.getElementsByTagName('head')[0];
-            r = o.createElement('script');
-            r.async = 1;
-            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
-</head>
+<?php echo getHeader('RotaractMora Manusath Handa'); ?>
 
 <body class="is-preload">
-	<!-- Header -->
-	<header id="header">
-		<div>
-			<a href="./index.html">
-				<img src="./images/logosrota/New folder (4)/New folder/logo transperant3.png" class="header-logo2" />
-			</a>
-		</div>
-		<div></div>
-		<nav id="pc">
-			<a href="./index.html">Home</a>
-			<a href="magazines.html">Magazines</a>
-			<a href="past_papers.html">Past Papers</a>
-			<a href="team.html">Team</a>
-		</nav>
-		<nav id="a">
-			<a href="#menu"></a>
-		</nav>
-
-	</header>
-
-
-	<nav id="menu">
-		<ul class="links">
-			<li style="-webkit-tap-highlight-color: rgba(0,0,0,0);"><a href="index.html">Home</a></li>
-			<li style="padding-bottom: 2%;"><a href="magazines.html">Magazines</a></li>
-			<li style="padding-bottom: 2%;"><a href="past_papers.html">Past Papers</a></li>
-			<li style="padding-bottom: 2%;"><a href="team.html">Team</a></li>
-		</ul>
-	</nav>
+    <!-- Header -->
+    <?php  echo getNavBar(); ?>
 
 	<!-- Heading -->
 	<section id="audio-page-banner">
@@ -207,7 +144,7 @@ for ($x = 0; $x < $c; $x++)
 
         function navigateToIndex() {
             console.log("method ");
-            window.location.href = './index.html';
+            window.location.href = './index.php';
 
         }
     </script>
