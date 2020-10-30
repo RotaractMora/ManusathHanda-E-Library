@@ -46,7 +46,7 @@
 						echo'<div id="collapse'.$x.'" class="panel-collapse collapse">';
 						echo '<br>';
 						echo'<audio controls preload="none">';
-							echo'<source src='.'"http://rotaractmora.org/rotaractmora_static/MH/wijaya_newspapers/ඉතිහාසය/ගම/ගමරාලගේ_කතාබහ/'. $file .'"';
+							echo'<source src='.'"http://manusathhanda.rotaractmora.org/wijaya_newspapers/ඉතිහාසය/ගම/ගමරාලගේ_කතාබහ/'. $file .'"';
 
 							echo ' type="audio/mp3">';
 							echo'Your browser does not support the audio element.';
@@ -54,7 +54,7 @@
 							echo '<script type="text/javascript" src="test.js"></script>';
 						echo'<a href="download.php?file=./wijaya_newspapers/ඉතිහාසය/ගම/ගමරාලගේ_කතාබහ/'. $file .'"';
 						echo'>';
-							echo '<img src="http://rotaractmora.org/rotaractmora_static/MH/downloads-icon.png">';
+							echo '<img src="http://manusathhanda.rotaractmora.org/downloads-icon.png">';
 						echo '</a>';
 
 						echo'</div>';

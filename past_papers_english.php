@@ -60,7 +60,7 @@
 
 
 							echo '<audio controls preload="none">';
-							echo '<source src=' . '"http://rotaractmora.org/rotaractmora_static/MH/voice_of_humanity_2019_OL_past_papers/English/English_2016/' . $file . '"';
+							echo '<source src=' . '"http://manusathhanda.rotaractmora.org/voice_of_humanity_2019_OL_past_papers/English/English_2016/' . $file . '"';
 
 							echo ' type="audio/mp3">';
 							echo 'Your browser does not support the audio element.';
@@ -72,7 +72,7 @@
 
 							echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/English/English_2016/' . $file . '"';
 							echo '>';
-							echo '<img src="http://rotaractmora.org/rotaractmora_static/MH/downloads-icon.png">';
+							echo '<img src="http://manusathhanda.rotaractmora.org/downloads-icon.png">';
 							echo '</a>';
 
 
@@ -113,7 +113,7 @@
 
 
 							echo '<audio controls preload="none">';
-							echo '<source src=' . '"http://rotaractmora.org/rotaractmora_static/MH/voice_of_humanity_2019_OL_past_papers/English/English_2017/' . $file . '"';
+							echo '<source src=' . '"http://manusathhanda.rotaractmora.org/voice_of_humanity_2019_OL_past_papers/English/English_2017/' . $file . '"';
 
 							echo ' type="audio/mp3">';
 							echo 'Your browser does not support the audio element.';
@@ -125,7 +125,7 @@
 
 							echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/English/English_2017/' . $file . '"';
 							echo '>';
-							echo '<img src="http://rotaractmora.org/rotaractmora_static/MH/downloads-icon.png">';
+							echo '<img src="http://manusathhanda.rotaractmora.org/downloads-icon.png">';
 							echo '</a>';
 
 
@@ -170,7 +170,7 @@
 
 
 							echo '<audio controls preload="none">';
-							echo '<source src=' . '"http://rotaractmora.org/rotaractmora_static/MH/voice_of_humanity_2019_OL_past_papers/English/English_2018/' . $file . '"';
+							echo '<source src=' . '"http://manusathhanda.rotaractmora.org/voice_of_humanity_2019_OL_past_papers/English/English_2018/' . $file . '"';
 
 							echo ' type="audio/mp3">';
 							echo 'Your browser does not support the audio element.';
@@ -182,7 +182,7 @@
 
 							echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/English/English_2018/' . $file . '"';
 							echo '>';
-							echo '<img src="http://rotaractmora.org/rotaractmora_static/MH/downloads-icon.png">';
+							echo '<img src="http://manusathhanda.rotaractmora.org/downloads-icon.png">';
 							echo '</a>';
 
 
@@ -231,7 +231,7 @@
 
 
 							echo '<audio controls preload="none">';
-							echo '<source src=' . '"http://rotaractmora.org/rotaractmora_static/MH/voice_of_humanity_2019_OL_past_papers/English/English_2019/' . $file . '"';
+							echo '<source src=' . '"http://manusathhanda.rotaractmora.org/voice_of_humanity_2019_OL_past_papers/English/English_2019/' . $file . '"';
 
 							echo ' type="audio/mp3">';
 							echo 'Your browser does not support the audio element.';
@@ -243,7 +243,7 @@
 
 							echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/English/English_2019/' . $file . '"';
 							echo '>';
-							echo '<img src="http://rotaractmora.org/rotaractmora_static/MH/downloads-icon.png">';
+							echo '<img src="http://manusathhanda.rotaractmora.org/downloads-icon.png">';
 							echo '</a>';
 
 

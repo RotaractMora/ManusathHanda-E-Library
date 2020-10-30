@@ -120,7 +120,7 @@
 
 
               echo'<audio controls preload="none">';
-                echo'<source src='.'"http://rotaractmora.org/rotaractmora_static/MH/voice_of_humanity_2019_AL_past_papers/History/'. $file .'"';
+                echo'<source src='.'"http://manusathhanda.rotaractmora.org/voice_of_humanity_2019_AL_past_papers/History/'. $file .'"';
 
                 echo ' type="audio/mp3">';
                 echo'Your browser does not support the audio element.';
@@ -132,7 +132,7 @@
 
               echo'<a href="download.php?file=./voice_of_humanity_2019_AL_past_papers/History/'. $file.'"';
               echo'>';
-                echo '<img src="http://rotaractmora.org/rotaractmora_static/MH/downloads-icon.png">';
+                echo '<img src="http://manusathhanda.rotaractmora.org/downloads-icon.png">';
               echo '</a>';
 
 
