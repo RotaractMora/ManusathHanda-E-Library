@@ -1,6 +1,6 @@
 <?php
-    include_once('header.php');
-    include_once('navbar.php');
+    include_once('components/header.php');
+    include_once('components/navbar.php');
 ?>
 
 <!DOCTYPE HTML>
@@ -73,7 +73,7 @@
 
               echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/science/2016_science/' . $file . '"';
               echo '>';
-              echo '<img src="downloads-icon.png">';
+              echo '<img src="downloads-icon.png" alt="Download file">';
               echo '</a>';
 
 
@@ -131,7 +131,7 @@
 
               echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/science/2017_science/' . $file . '"';
               echo '>';
-              echo '<img src="downloads-icon.png">';
+              echo '<img src="downloads-icon.png" alt="Download file">';
               echo '</a>';
 
 
@@ -188,7 +188,7 @@
 
               echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/science/2018_science/' . $file . '"';
               echo '>';
-              echo '<img src="downloads-icon.png">';
+              echo '<img src="downloads-icon.png" alt="Download file">';
               echo '</a>';
 
 
@@ -244,7 +244,7 @@
 
               echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/science/2019_science/' . $file . '"';
               echo '>';
-              echo '<img src="downloads-icon.png">';
+              echo '<img src="downloads-icon.png" alt="Download file">';
               echo '</a>';
 
 
