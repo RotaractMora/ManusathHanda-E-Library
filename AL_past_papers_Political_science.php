@@ -69,7 +69,7 @@
 
 
 
-              echo'<a href="download.php?file=./voice_of_humanity_2019_AL_past_papers/History/'. $file.'"';
+              echo'<a href="download.php?file=./voice_of_humanity_2019_AL_past_papers/Political_science/'. $file.'"';
               echo'>';
                 echo '<img src="downloads-icon.png" alt="Download file">';
               echo '</a>';
