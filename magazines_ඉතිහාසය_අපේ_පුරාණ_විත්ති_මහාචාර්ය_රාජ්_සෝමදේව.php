@@ -28,7 +28,7 @@
 		<div class="panel-group" id="accordion">
 
     <?php
-    $dir = scandir("./wijaya_newspapers/ඉතිහාසය/අපේ_පුරාන_විත්ති_මහාචාර්ය_රාජ්_සෝමදේව/");
+    $dir = scandir("./wijaya_newspapers/History/Raj_somadewa/");
     $c=count($dir);
     sort($dir,1);
     for ($x = 0; $x < $c; $x++)
@@ -46,14 +46,14 @@
     				echo'<div id="collapse'.$x.'" class="panel-collapse collapse">';
             echo '<br>';
             echo'<audio controls preload="none">';
-              echo'<source src='.'"wijaya_newspapers/ඉතිහාසය/අපේ_පුරාන_විත්ති_මහාචාර්ය_රාජ්_සෝමදේව/'. $file .'"';
+              echo'<source src='.'"wijaya_newspapers/History/Raj_somadewa/'. $file .'"';
 
               echo ' type="audio/mp3">';
               echo'Your browser does not support the audio element.';
             echo'</audio>';
 echo '<script type="text/javascript" src="test.js"></script>';
 
-            echo'<a href="download.php?file=./wijaya_newspapers/ඉතිහාසය/අපේ_පුරාන_විත්ති_මහාචාර්ය_රාජ්_සෝමදේව/'. $file .'"';
+            echo'<a href="download.php?file=./wijaya_newspapers/History/Raj_somadewa/'. $file .'"';
             echo'>';
               echo '<img src="downloads-icon.png" alt="Download file">';
             echo '</a>';

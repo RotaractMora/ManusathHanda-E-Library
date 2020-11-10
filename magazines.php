@@ -143,6 +143,14 @@
                         </header>
                     </div>
                 </section>
+                <section>
+                    <div class="content" style="cursor: pointer;" onclick="window.location='./magazines_literature.php';">
+                        <header>
+                            <img src="./images/audiobook-icon-66.png" width="50%" />
+                            <h3>සාහිත්‍යය</h3>
+                        </header>
+                    </div>
+                </section>
             </div>
         </div>
     </section>
