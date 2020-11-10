@@ -26,7 +26,7 @@
             <div class="highlights">
                 <!--Selectable categories-->
                 <section>
-                    <div class="content" style="cursor: pointer;" onclick="window.location='./magazines_History_ගම_එදා_ගමට_ආ_අය.php'">
+                    <div class="content" style="cursor: pointer;" onclick="window.location='./magazines_ඉතිහාසය_ගම_එදා_ගමට_ආ_අය'">
                         <header>
                             <img src="./images/audiobook-icon-66.png" width="50%" />
                             <h3>එදා ගමට ආ අය</h3>
@@ -34,7 +34,7 @@
                     </div>
                 </section>
                 <section>
-                    <div class="content" style="cursor: pointer;" onclick="window.location='./magazines_History_ගම_ගමරාලගේ_කතාබහා.php'">
+                    <div class="content" style="cursor: pointer;" onclick="window.location='./magazines_ඉතිහාසය_ගම_ගමරාලගේ_කතාබහා.php'">
                         <header>
                             <img src="./images/audiobook-icon-66.png" width="50%" />
                             <h3>ගමරාලගේ කතාබහ</h3>
