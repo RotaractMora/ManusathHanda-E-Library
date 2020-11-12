@@ -25,7 +25,7 @@
     <!-- Main -->
     <div class="container">
         <br />
-        <h2>සාහිත්‍යයසාහිත්‍යය</h2>
+        <h2>සාහිත්‍යය</h2>
         <div class="panel-group" id="accordion">
 
             <?php
