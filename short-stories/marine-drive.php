@@ -18,7 +18,7 @@ include_once('../components/navbar.php');
 
 	<!-- Heading -->
 	<section id="audio-page-banner">
-		<p></p>
+		<p>Short Stories</p>
 	</section>
 
 	<!-- Main -->
