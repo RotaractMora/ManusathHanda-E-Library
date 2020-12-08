@@ -13,6 +13,7 @@ function getNavBar()
         <a href="/">Home</a>
         <a href="/magazines.php">Magazines</a>
         <a href="/past_papers.php">Past Papers</a>
+        <a href="/short_stories.php">Short Stories</a>
         <a href="/team.php">Team</a>
     </nav>
     <nav id="a">
@@ -22,11 +23,12 @@ function getNavBar()
 </header>
 
 
-<nav id="menu">ෆෆ
+<nav id="menu">
     <ul class="links">
         <li style="-webkit-tap-highlight-color: rgba(0,0,0,0);"><a href="/">Home</a></li>
         <li style="padding-bottom: 2%;"><a href="/magazines.php">Magazines</a></li>
         <li style="padding-bottom: 2%;"><a href="/past_papers.php">Past Papers</a></li>
+        <li style="padding-bottom: 2%;"><a href="/short_stories.php">Short Stories</a></li>
         <li style="padding-bottom: 2%;"><a href="/team.php">Team</a></li>
     </ul>
 </nav>';

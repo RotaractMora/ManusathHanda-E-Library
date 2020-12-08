@@ -92,6 +92,15 @@ include_once('components/navbar.php');
                         <p>Listen to the past papers of G.C.E. Ordinary Level exam</p>
                     </div>
                 </section>
+                <section>
+                    <div class="content" style="cursor: pointer;" onclick="window.location='short_stories.php'">
+                        <header>
+                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <h3>Short Stories</h3>
+                        </header>
+                        <p>Listen to a collection of short stories</p>
+                    </div>
+                </section>
             </div>
         </div>
     </section>
