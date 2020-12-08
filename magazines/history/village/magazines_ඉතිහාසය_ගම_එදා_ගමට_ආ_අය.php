@@ -1,6 +1,6 @@
 <?php
-    include_once('../../../components/header.php');
-    include_once('../../../components/navbar.php');
+include_once('../../../components/header.php');
+include_once('../../../components/navbar.php');
 ?>
 
 <!DOCTYPE HTML>
@@ -13,64 +13,60 @@
 <?php echo getHeader('එදා ගමට ආ අය'); ?>
 
 <body class="is-preload">
-    <!-- Header -->
-    <?php  echo getNavBar(); ?>
+  <!-- Header -->
+  <?php echo getNavBar(); ?>
 
-	<!-- Heading -->
-	<section id="audio-page-banner">
-		<p>Magazines</p>
-	</section>
+  <!-- Heading -->
+  <section id="audio-page-banner">
+    <p>Magazines</p>
+  </section>
 
-	<!-- Main -->
-	<div class="container">
-		<br />
-		<h2>එදා ගමට ආ අය</h2>
-		<div class="panel-group" id="accordion">
-		
-    <?php
-    $dir = scandir("../../../wijaya_newspapers/History/Village/Eda_Gamata_Aa_Aya/");
-    $c=count($dir);
-    sort($dir,1);
-    for ($x = 0; $x < $c; $x++)
-    {
-      $file=$dir[$x];
-        if(strcmp($file,".")!=0 and strcmp($file,"..")!=0)
-        {
-    		
-    			echo'<div class="panel panel-default">';
-    				echo'<div class="panel-heading">';
-    					echo'<h4 class="panel-title">';
-    						echo'<a data-toggle="collapse" data-parent="#accordion" href="#collapse'.$x.'">'.substr($file,0,strlen($file)-4).'</a>';
-    					echo'</h4>';
-    				echo'</div>';
-    				echo'<div id="collapse'.$x.'" class="panel-collapse collapse">';
-            echo '<br>';
-            echo'<audio controls preload="none">';
-              echo'<source src='.'"/wijaya_newspapers/History/Village/Eda_Gamata_Aa_Aya/'. $file .'"';
+  <!-- Main -->
+  <div class="container">
+    <br />
+    <h2>එදා ගමට ආ අය</h2>
+    <div class="panel-group" id="accordion">
 
-              echo ' type="audio/mp3">';
-              echo'Your browser does not support the audio element.';
-            echo'</audio>';
-echo '<script type="text/javascript" src="/test.js"></script>';
-            echo'<a href="/download.php?file=./wijaya_newspapers/History/Village/Eda_Gamata_Aa_Aya/'. $file .'"';
-            echo'>';
-              echo '<img src="/images/downloads-icon.png" alt="Download file">';
-            echo '</a>';
+      <?php
+      $dir = scandir("../../../wijaya_newspapers/History/Village/Eda_Gamata_Aa_Aya/");
+      $c = count($dir);
+      sort($dir, 1);
+      for ($x = 0; $x < $c; $x++) {
+        $file = $dir[$x];
+        if (strcmp($file, ".") != 0 and strcmp($file, "..") != 0) {
 
-    				echo'</div>';
+          echo '<div class="panel panel-default">';
+          echo '<div class="panel-heading">';
+          echo '<h4 class="panel-title">';
+          echo '<a data-toggle="collapse" data-parent="#accordion" href="#collapse' . $x . '">' . substr($file, 0, strlen($file) - 4) . '</a>';
+          echo '</h4>';
+          echo '</div>';
+          echo '<div id="collapse' . $x . '" class="panel-collapse collapse">';
+          echo '<br>';
+          echo '<audio controls preload="none">';
+          echo '<source src=' . '"/wijaya_newspapers/History/Village/Eda_Gamata_Aa_Aya/' . $file . '"';
 
-    			echo'</div>';
+          echo ' type="audio/mp3">';
+          echo 'Your browser does not support the audio element.';
+          echo '</audio>';
+          echo '<script type="text/javascript" src="/test.js"></script>';
+          echo '<a href="/download.php?file=./wijaya_newspapers/History/Village/Eda_Gamata_Aa_Aya/' . $file . '"';
+          echo '>';
+          echo '<img src="/images/downloads-icon.png" alt="Download file">';
+          echo '</a>';
 
+          echo '</div>';
 
+          echo '</div>';
+        }
       }
-    }
 
-        ?>
-</div>
-	</div>
+      ?>
+    </div>
+  </div>
 
-	<!-- Footer -->
-    <?php include_once('../../../components/footer.php');?>
+  <!-- Footer -->
+  <?php include_once('../../../components/footer.php'); ?>
 
 </body>
 

@@ -1,6 +1,6 @@
 <?php
-    include_once('../../components/header.php');
-    include_once('../../components/navbar.php');
+include_once('../../components/header.php');
+include_once('../../components/navbar.php');
 ?>
 
 <!DOCTYPE HTML>
@@ -14,88 +14,85 @@
 <?php echo getHeader('RotaractMora Manusath Handa'); ?>
 
 <body class="is-preload">
-    <!-- Header -->
-    <?php  echo getNavBar(); ?>
+  <!-- Header -->
+  <?php echo getNavBar(); ?>
 
-	<!-- Heading -->
-	<section id="audio-page-banner">
-		<p>Past Papers</p>
-	</section>
+  <!-- Heading -->
+  <section id="audio-page-banner">
+    <p>Past Papers</p>
+  </section>
 
 
-	<!-- Main -->
-	<div class="container">
-		<br />
-		<h2>Select a Sinhala audiobook to listen to</h2>
-		<p>Click on the expandable items to listen to & download audio questions of past papers.</p>
-		<div>
-		<a data-toggle="collapse" data-parent="#accordion" href="#collapse6"><button class="button button1">2019</button></a>
-	</div>
+  <!-- Main -->
+  <div class="container">
+    <br />
+    <h2>Select a Sinhala audiobook to listen to</h2>
+    <p>Click on the expandable items to listen to & download audio questions of past papers.</p>
+    <div>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse6"><button class="button button1">2019</button></a>
+    </div>
 
-		<div class="panel-group" id="accordion">
-			<div class="panel panel-default">
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
             <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">2019</a>
           </h4>
         </div>
         <div id="collapse6" class="panel-collapse collapse">
-    <?php
+          <?php
 
 
-    $dir = scandir("../../voice_of_humanity_2019_AL_past_papers/Sinhala/");
-    $c=count($dir);
-    sort($dir,1);
+          $dir = scandir("../../voice_of_humanity_2019_AL_past_papers/Sinhala/");
+          $c = count($dir);
+          sort($dir, 1);
 
-    for ($x = 0; $x < $c; $x++)
-    {
-    $file=$dir[$x];
-      if(strcmp($file,".")!=0 and strcmp($file,"..")!=0)
-      {
-         echo '<div class="panel-body" class="raw">';
-         
-           echo substr($file,0,strlen($file)-4)."</br>";
-         
-         
+          for ($x = 0; $x < $c; $x++) {
+            $file = $dir[$x];
+            if (strcmp($file, ".") != 0 and strcmp($file, "..") != 0) {
+              echo '<div class="panel-body" class="raw">';
 
-
-              echo'<audio controls preload="none">';
-                echo'<source src='.'"/voice_of_humanity_2019_AL_past_papers/Sinhala/'. $file .'"';
-
-                echo ' type="audio/mp3">';
-                echo'Your browser does not support the audio element.';
-              echo'</audio>';
-							echo '<script type="text/javascript" src="/test.js"></script>';
+              echo substr($file, 0, strlen($file) - 4) . "</br>";
 
 
 
 
-              echo'<a href="/download.php?file=./voice_of_humanity_2019_AL_past_papers/Sinhala/'. $file.'"';
-              echo'>';
-                echo '<img src="/images/downloads-icon.png" alt="Download file">';
+              echo '<audio controls preload="none">';
+              echo '<source src=' . '"/voice_of_humanity_2019_AL_past_papers/Sinhala/' . $file . '"';
+
+              echo ' type="audio/mp3">';
+              echo 'Your browser does not support the audio element.';
+              echo '</audio>';
+              echo '<script type="text/javascript" src="/test.js"></script>';
+
+
+
+
+              echo '<a href="/download.php?file=./voice_of_humanity_2019_AL_past_papers/Sinhala/' . $file . '"';
+              echo '>';
+              echo '<img src="/images/downloads-icon.png" alt="Download file">';
               echo '</a>';
 
 
 
 
 
-      echo'</div>';
-      }
+              echo '</div>';
+            }
+          }
 
-    }
-
-    //close
+          //close
 
 
-    ?>
+          ?>
 
-        	  	</div>
-		</div>
-	</div>
-</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<!-- Footer -->
-<?php include_once('../../components/footer.php');?>
+  <!-- Footer -->
+  <?php include_once('../../components/footer.php'); ?>
 
 </body>
 

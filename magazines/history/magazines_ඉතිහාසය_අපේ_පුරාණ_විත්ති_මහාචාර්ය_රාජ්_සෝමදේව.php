@@ -1,6 +1,6 @@
 <?php
-    include_once('../../components/header.php');
-    include_once('../../components/navbar.php');
+include_once('../../components/header.php');
+include_once('../../components/navbar.php');
 ?>
 
 <!DOCTYPE HTML>
@@ -13,68 +13,63 @@
 <?php echo getHeader('අපේ පුරාණ විත්ති මහාචාර්ය රාජ් සෝමදේව'); ?>
 
 <body class="is-preload">
-    <!-- Header -->
-    <?php  echo getNavBar(); ?>
+  <!-- Header -->
+  <?php echo getNavBar(); ?>
 
-	<!-- Heading -->
-	<section id="audio-page-banner">
-		<p>Magazines</p>
-	</section>
+  <!-- Heading -->
+  <section id="audio-page-banner">
+    <p>Magazines</p>
+  </section>
 
-	<!-- Main -->
-	<div class="container">
-		<br />
-		<h2>අපේ පුරාණ විත්ති මහාචාර්ය රාජ් සෝමදේව</h2>
-		<div class="panel-group" id="accordion">
+  <!-- Main -->
+  <div class="container">
+    <br />
+    <h2>අපේ පුරාණ විත්ති මහාචාර්ය රාජ් සෝමදේව</h2>
+    <div class="panel-group" id="accordion">
 
-    <?php
-    $dir = scandir("../../wijaya_newspapers/History/Raj_somadewa/");
-    $c=count($dir);
-    sort($dir,1);
-    for ($x = 0; $x < $c; $x++)
-    {
-      $file=$dir[$x];
-        if(strcmp($file,".")!=0 and strcmp($file,"..")!=0)
-        {
-    		
-    			echo'<div class="panel panel-default">';
-    				echo'<div class="panel-heading">';
-    					echo'<h4 class="panel-title">';
-    						echo'<a data-toggle="collapse" data-parent="#accordion" href="#collapse'.$x.'">'.substr($file,0,strlen($file)-4).'</a>';
-    					echo'</h4>';
-    				echo'</div>';
-    				echo'<div id="collapse'.$x.'" class="panel-collapse collapse">';
-            echo '<br>';
-            echo'<audio controls preload="none">';
-              echo'<source src='.'"/wijaya_newspapers/History/Raj_somadewa/'. $file .'"';
+      <?php
+      $dir = scandir("../../wijaya_newspapers/History/Raj_somadewa/");
+      $c = count($dir);
+      sort($dir, 1);
+      for ($x = 0; $x < $c; $x++) {
+        $file = $dir[$x];
+        if (strcmp($file, ".") != 0 and strcmp($file, "..") != 0) {
 
-              echo ' type="audio/mp3">';
-              echo'Your browser does not support the audio element.';
-            echo'</audio>';
-echo '<script type="text/javascript" src="/test.js"></script>';
+          echo '<div class="panel panel-default">';
+          echo '<div class="panel-heading">';
+          echo '<h4 class="panel-title">';
+          echo '<a data-toggle="collapse" data-parent="#accordion" href="#collapse' . $x . '">' . substr($file, 0, strlen($file) - 4) . '</a>';
+          echo '</h4>';
+          echo '</div>';
+          echo '<div id="collapse' . $x . '" class="panel-collapse collapse">';
+          echo '<br>';
+          echo '<audio controls preload="none">';
+          echo '<source src=' . '"/wijaya_newspapers/History/Raj_somadewa/' . $file . '"';
 
-            echo'<a href="/download.phpp?file=./wijaya_newspapers/History/Raj_somadewa/'. $file .'"';
-            echo'>';
-              echo '<img src="/images/downloads-icon.png" alt="Download file">';
-            echo '</a>';
+          echo ' type="audio/mp3">';
+          echo 'Your browser does not support the audio element.';
+          echo '</audio>';
+          echo '<script type="text/javascript" src="/test.js"></script>';
 
-    				echo'</div>';
+          echo '<a href="/download.phpp?file=./wijaya_newspapers/History/Raj_somadewa/' . $file . '"';
+          echo '>';
+          echo '<img src="/images/downloads-icon.png" alt="Download file">';
+          echo '</a>';
 
-    			echo'</div>';
+          echo '</div>';
 
-
-    		
+          echo '</div>';
+        }
       }
-    }
 
-        ?>
+      ?>
 
 
-</div>
-	</div>
+    </div>
+  </div>
 
-	<!-- Footer -->
-    <?php include_once('../../components/footer.php');?>
+  <!-- Footer -->
+  <?php include_once('../../components/footer.php'); ?>
 
 </body>
 

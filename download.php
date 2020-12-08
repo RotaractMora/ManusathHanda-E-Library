@@ -35,4 +35,3 @@ if (isset($_GET['file'])) {
     header("HTTP/1.0 404 Not Found");
     echo "<h1>Error 404: File Not Found: <br /><em>$file</em></h1>";
 }
-?>

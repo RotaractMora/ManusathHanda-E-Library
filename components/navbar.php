@@ -1,6 +1,7 @@
 <?php
 
-function getNavBar() {
+function getNavBar()
+{
     return '<header id="header">
     <div>
         <a href="/">
@@ -21,7 +22,7 @@ function getNavBar() {
 </header>
 
 
-<nav id="menu">
+<nav id="menu">ෆෆ
     <ul class="links">
         <li style="-webkit-tap-highlight-color: rgba(0,0,0,0);"><a href="/">Home</a></li>
         <li style="padding-bottom: 2%;"><a href="/magazines.php">Magazines</a></li>
@@ -30,4 +31,3 @@ function getNavBar() {
     </ul>
 </nav>';
 }
-?>

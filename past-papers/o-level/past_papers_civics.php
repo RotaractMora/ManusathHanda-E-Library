@@ -1,6 +1,6 @@
 <?php
-    include_once('../../components/header.php');
-    include_once('../../components/navbar.php');
+include_once('../../components/header.php');
+include_once('../../components/navbar.php');
 ?>
 
 <!DOCTYPE HTML>
@@ -13,28 +13,28 @@
 <?php echo getHeader('RotaractMora Manusath Handa'); ?>
 
 <body class="is-preload">
-    <!-- Header -->
-    <?php  echo getNavBar(); ?>
+  <!-- Header -->
+  <?php echo getNavBar(); ?>
 
-	<!-- Heading -->
-	<section id="audio-page-banner">
-		<p>Past Papers</p>
-	</section>
+  <!-- Heading -->
+  <section id="audio-page-banner">
+    <p>Past Papers</p>
+  </section>
 
-	<!-- Main -->
-	<div class="container">
-		<br />
-		<h2>Select a Civics audiobook to listen to</h2>
-		<p>Click on the expandable items to listen to & download audio questions of past papers.</p>
-		<div>
-		<a data-toggle="collapse" data-parent="#accordion" href="#collapse4"><button class="button button1">2016</button></a>
-		<a data-toggle="collapse" data-parent="#accordion" href="#collapse5"><button class="button button1">2017</button></a>
-		<a data-toggle="collapse" data-parent="#accordion" href="#collapse6"><button class="button button1">2018</button></a>
-		<a data-toggle="collapse" data-parent="#accordion" href="#collapse7"><button class="button button1">2019</button></a>
-	</div>
+  <!-- Main -->
+  <div class="container">
+    <br />
+    <h2>Select a Civics audiobook to listen to</h2>
+    <p>Click on the expandable items to listen to & download audio questions of past papers.</p>
+    <div>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse4"><button class="button button1">2016</button></a>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse5"><button class="button button1">2017</button></a>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse6"><button class="button button1">2018</button></a>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse7"><button class="button button1">2019</button></a>
+    </div>
 
-		<div class="panel-group" id="accordion">
-			<div class="panel panel-default">
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
             <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">2016</a>
@@ -271,7 +271,7 @@
   </div>
 
   <!-- Footer -->
-  <?php include_once('../../components/footer.php');?>
+  <?php include_once('../../components/footer.php'); ?>
 
 </body>
 

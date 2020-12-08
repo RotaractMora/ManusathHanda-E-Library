@@ -1,6 +1,6 @@
 <?php
-    include_once('../../components/header.php');
-    include_once('../../components/navbar.php');
+include_once('../../components/header.php');
+include_once('../../components/navbar.php');
 ?>
 
 <!DOCTYPE HTML>
@@ -13,8 +13,8 @@
 <?php echo getHeader('RotaractMora Manusath Hand'); ?>
 
 <body class="is-preload">
-    <!-- Header -->
-    <?php  echo getNavBar(); ?>
+	<!-- Header -->
+	<?php echo getNavBar(); ?>
 
 	<!-- Heading -->
 	<section id="audio-page-banner">
@@ -262,7 +262,7 @@
 	</div>
 
 	<!-- Footer -->
-	<?php include_once('../../components/footer.php');?>
+	<?php include_once('../../components/footer.php'); ?>
 
 </body>
 

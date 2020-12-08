@@ -1,6 +1,6 @@
 <?php
-    include_once('../../components/header.php');
-    include_once('../../components/navbar.php');
+include_once('../../components/header.php');
+include_once('../../components/navbar.php');
 ?>
 
 <!DOCTYPE HTML>
@@ -13,8 +13,8 @@
 <?php echo getHeader('දේශපාලනය'); ?>
 
 <body class="is-preload">
-    <!-- Header -->
-    <?php  echo getNavBar(); ?>
+  <!-- Header -->
+  <?php echo getNavBar(); ?>
 
   <!-- Heading -->
   <section id="audio-page-banner">
@@ -65,8 +65,8 @@
     </div>
   </div>
 
- <!-- Footer -->
- <?php include_once('../../components/footer.php');?>
+  <!-- Footer -->
+  <?php include_once('../../components/footer.php'); ?>
 
 </body>
 

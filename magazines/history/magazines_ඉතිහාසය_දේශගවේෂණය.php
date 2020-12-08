@@ -1,6 +1,6 @@
 <?php
-    include_once('../../components/header.php');
-    include_once('../../components/navbar.php');
+include_once('../../components/header.php');
+include_once('../../components/navbar.php');
 ?>
 
 <!DOCTYPE HTML>
@@ -14,7 +14,7 @@
 
 <body class="is-preload">
     <!-- Header -->
-    <?php  echo getNavBar(); ?>
+    <?php echo getNavBar(); ?>
 
     <!-- Heading -->
     <section id="audio-page-banner">
@@ -67,7 +67,7 @@
     </div>
 
     <!-- Footer -->
-    <?php include_once('../../components/footer.php');?>
+    <?php include_once('../../components/footer.php'); ?>
 
 </body>
 
