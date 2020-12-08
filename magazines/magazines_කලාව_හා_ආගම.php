@@ -29,7 +29,7 @@
 
 
 			<?php
-			$dir = scandir("./wijaya_newspapers/Art_and_religion/");
+			$dir = scandir("../wijaya_newspapers/Art_and_religion/");
 			$c = count($dir);
 			sort($dir, 1);
 			for ($x = 0; $x < $c; $x++) {
@@ -45,13 +45,13 @@
 					echo '<div id="collapse' . $x . '" class="panel-collapse collapse">';
 					echo '<br>';
 					echo '<audio controls preload="none">';
-					echo '<source src=' . '"wijaya_newspapers/Art_and_religion/' . $file . '"';
+					echo '<source src=' . '"/wijaya_newspapers/Art_and_religion/' . $file . '"';
 
 					echo ' type="audio/mp3">';
 					echo 'Your browser does not support the audio element.';
 					echo '</audio>';
-					echo '<script type="text/javascript" src="test.js"></script>';
-					echo '<a href="download.php?file=./wijaya_newspapers/Art_and_religion/' . $file . '"';
+					echo '<script type="text/javascript" src="/test.js"></script>';
+					echo '<a href="/download.php?file=./wijaya_newspapers/Art_and_religion/' . $file . '"';
 					echo '>';
 					echo '<img src="/images/downloads-icon.png" alt="Download file">';
 					echo '</a>';

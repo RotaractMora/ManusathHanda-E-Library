@@ -53,7 +53,7 @@
                     <?php
 
 
-                    $dir = scandir("./voice_of_humanity_2019_OL_past_papers/History/2016_history/");
+                    $dir = scandir("../../voice_of_humanity_2019_OL_past_papers/History/2016_history/");
                     $c = count($dir);
                     sort($dir, 1);
 
@@ -69,17 +69,17 @@
 
 
                             echo '<audio controls preload="none">';
-                            echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/History/2016_history/' . $file . '"';
+                            echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers/History/2016_history/' . $file . '"';
 
                             echo ' type="audio/mp3">';
                             echo 'Your browser does not support the audio element.';
                             echo '</audio>';
-                            echo '<script type="text/javascript" src="test.js"></script>';
+                            echo '<script type="text/javascript" src="/test.js"></script>';
 
 
 
 
-                            echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/History/2016_history/' . $file . '"';
+                            echo '<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers/History/2016_history/' . $file . '"';
                             echo '>';
                             echo '<img src="/images/downloads-icon.png" alt="Download file">';
                             echo '</a>';
@@ -111,7 +111,7 @@
                     <?php
 
 
-                    $dir = scandir("./voice_of_humanity_2019_OL_past_papers/History/2017_history/");
+                    $dir = scandir("../../voice_of_humanity_2019_OL_past_papers/History/2017_history/");
                     $c = count($dir);
                     sort($dir, 1);
 
@@ -127,17 +127,17 @@
 
 
                             echo '<audio controls preload="none">';
-                            echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/History/2017_history/' . $file . '"';
+                            echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers/History/2017_history/' . $file . '"';
 
                             echo ' type="audio/mp3">';
                             echo 'Your browser does not support the audio element.';
                             echo '</audio>';
-                            echo '<script type="text/javascript" src="test.js"></script>';
+                            echo '<script type="text/javascript" src="/test.js"></script>';
 
 
 
 
-                            echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/History/2017_history/' . $file . '"';
+                            echo '<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers/History/2017_history/' . $file . '"';
                             echo '>';
                             echo '<img src="/images/downloads-icon.png" alt="Download file">';
                             echo '</a>';
@@ -168,7 +168,7 @@
                     <?php
 
 
-                    $dir = scandir("./voice_of_humanity_2019_OL_past_papers/History/2018_history/");
+                    $dir = scandir("../../voice_of_humanity_2019_OL_past_papers/History/2018_history/");
                     $c = count($dir);
                     sort($dir, 1);
 
@@ -184,17 +184,17 @@
 
 
                             echo '<audio controls preload="none">';
-                            echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/History/2018_history/' . $file . '"';
+                            echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers/History/2018_history/' . $file . '"';
 
                             echo ' type="audio/mp3">';
                             echo 'Your browser does not support the audio element.';
                             echo '</audio>';
-                            echo '<script type="text/javascript" src="test.js"></script>';
+                            echo '<script type="text/javascript" src="/test.js"></script>';
 
 
 
 
-                            echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/History/2018_history/' . $file . '"';
+                            echo '<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers/History/2018_history/' . $file . '"';
                             echo '>';
                             echo '<img src="/images/downloads-icon.png" alt="Download file">';
                             echo '</a>';
@@ -227,7 +227,7 @@
                     <?php
 
 
-                    $dir = scandir("./voice_of_humanity_2019_OL_past_papers/History/2019_history/");
+                    $dir = scandir("../../voice_of_humanity_2019_OL_past_papers/History/2019_history/");
                     $c = count($dir);
                     sort($dir, 1);
 
@@ -239,17 +239,17 @@
 
 
                             echo '<audio controls preload="none">';
-                            echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/History/2019_history/' . $file . '"';
+                            echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers/History/2019_history/' . $file . '"';
 
                             echo ' type="audio/mp3">';
                             echo 'Your browser does not support the audio element.';
                             echo '</audio>';
-                            echo '<script type="text/javascript" src="test.js"></script>';
+                            echo '<script type="text/javascript" src="/test.js"></script>';
 
 
 
 
-                            echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/History/2019_history/' . $file . '"';
+                            echo '<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers/History/2019_history/' . $file . '"';
                             echo '>';
                             echo '<img src="/images/downloads-icon.png" alt="Download file">';
                             echo '</a>';

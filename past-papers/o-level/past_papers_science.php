@@ -45,7 +45,7 @@
           <?php
 
 
-          $dir = scandir("./voice_of_humanity_2019_OL_past_papers/science/2016_science/");
+          $dir = scandir("../../voice_of_humanity_2019_OL_past_papers/science/2016_science/");
           $c = count($dir);
           sort($dir, 1);
 
@@ -61,17 +61,17 @@
 
 
               echo '<audio controls preload="none">';
-              echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/science/2016_science/' . $file . '"';
+              echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers/science/2016_science/' . $file . '"';
 
               echo ' type="audio/mp3">';
               echo 'Your browser does not support the audio element.';
               echo '</audio>';
-              echo '<script type="text/javascript" src="test.js"></script>';
+              echo '<script type="text/javascript" src="/test.js"></script>';
 
 
 
 
-              echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/science/2016_science/' . $file . '"';
+              echo '<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers/science/2016_science/' . $file . '"';
               echo '>';
               echo '<img src="/images/downloads-icon.png" alt="Download file">';
               echo '</a>';
@@ -102,7 +102,7 @@
           <?php
 
 
-          $dir = scandir("./voice_of_humanity_2019_OL_past_papers/science/2017_science/");
+          $dir = scandir("../../voice_of_humanity_2019_OL_past_papers/science/2017_science/");
           $c = count($dir);
           sort($dir, 1);
 
@@ -119,17 +119,17 @@
 
 
               echo '<audio controls preload="none">';
-              echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/science/2017_science/' . $file . '"';
+              echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers/science/2017_science/' . $file . '"';
 
               echo ' type="audio/mp3">';
               echo 'Your browser does not support the audio element.';
               echo '</audio>';
-              echo '<script type="text/javascript" src="test.js"></script>';
+              echo '<script type="text/javascript" src="/test.js"></script>';
 
 
 
 
-              echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/science/2017_science/' . $file . '"';
+              echo '<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers/science/2017_science/' . $file . '"';
               echo '>';
               echo '<img src="/images/downloads-icon.png" alt="Download file">';
               echo '</a>';
@@ -159,7 +159,7 @@
           <?php
 
 
-          $dir = scandir("./voice_of_humanity_2019_OL_past_papers/science/2018_science/");
+          $dir = scandir("../../voice_of_humanity_2019_OL_past_papers/science/2018_science/");
           $c = count($dir);
           sort($dir, 1);
 
@@ -176,17 +176,17 @@
 
 
               echo '<audio controls preload="none">';
-              echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/science/2018_science/' . $file . '"';
+              echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers/science/2018_science/' . $file . '"';
 
               echo ' type="audio/mp3">';
               echo 'Your browser does not support the audio element.';
               echo '</audio>';
-              echo '<script type="text/javascript" src="test.js"></script>';
+              echo '<script type="text/javascript" src="/test.js"></script>';
 
 
 
 
-              echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/science/2018_science/' . $file . '"';
+              echo '<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers/science/2018_science/' . $file . '"';
               echo '>';
               echo '<img src="/images/downloads-icon.png" alt="Download file">';
               echo '</a>';
@@ -220,7 +220,7 @@
           <?php
 
 
-          $dir = scandir("./voice_of_humanity_2019_OL_past_papers/science/2019_science/");
+          $dir = scandir("../../voice_of_humanity_2019_OL_past_papers/science/2019_science/");
           $c = count($dir);
           sort($dir, 1);
 
@@ -232,17 +232,17 @@
 
 
               echo '<audio controls preload="none">';
-              echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/science/2019_science/' . $file . '"';
+              echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers/science/2019_science/' . $file . '"';
 
               echo ' type="audio/mp3">';
               echo 'Your browser does not support the audio element.';
               echo '</audio>';
-              echo '<script type="text/javascript" src="test.js"></script>';
+              echo '<script type="text/javascript" src="/test.js"></script>';
 
 
 
 
-              echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/science/2019_science/' . $file . '"';
+              echo '<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers/science/2019_science/' . $file . '"';
               echo '>';
               echo '<img src="/images/downloads-icon.png" alt="Download file">';
               echo '</a>';

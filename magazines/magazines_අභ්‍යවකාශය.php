@@ -29,7 +29,7 @@
         <div class="panel-group" id="accordion">
 
             <?php
-            $dir = scandir("./wijaya_newspapers/space/");
+            $dir = scandir("../wijaya_newspapers/space/");
             $c = count($dir);
             sort($dir, 1);
             for ($x = 0; $x < $c; $x++) {
@@ -45,14 +45,14 @@
                     echo '<div id="collapse' . $x . '" class="panel-collapse collapse">';
                     echo '<br>';
                     echo '<audio controls preload="none">';
-                    echo '<source src=' . '"wijaya_newspapers/space/' . $file . '"';
+                    echo '<source src=' . '"/wijaya_newspapers/space/' . $file . '"';
 
                     echo ' type="audio/mp3">';
                     echo 'Your browser does not support the audio element.';
                     echo '</audio>';
-                    echo '<script type="text/javascript" src="test.js"></script>';
+                    echo '<script type="text/javascript" src="/test.js"></script>';
 
-                    echo '<a href="download.php?file=./wijaya_newspapers/space/' . $file . '"';
+                    echo '<a href="/download.php?file=./wijaya_newspapers/space/' . $file . '"';
                     echo '>';
                     echo '<img src="/images/downloads-icon.png" alt="Download file">';
                     echo '</a>';

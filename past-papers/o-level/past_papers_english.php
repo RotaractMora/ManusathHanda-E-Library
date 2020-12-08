@@ -44,7 +44,7 @@
 					<?php
 
 
-					$dir = scandir("./voice_of_humanity_2019_OL_past_papers/English/English_2016/");
+					$dir = scandir("../../voice_of_humanity_2019_OL_past_papers/English/English_2016/");
 					$c = count($dir);
 					sort($dir, 1);
 
@@ -60,17 +60,17 @@
 
 
 							echo '<audio controls preload="none">';
-							echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/English/English_2016/' . $file . '"';
+							echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers/English/English_2016/' . $file . '"';
 
 							echo ' type="audio/mp3">';
 							echo 'Your browser does not support the audio element.';
 							echo '</audio>';
-							echo '<script type="text/javascript" src="test.js"></script>';
+							echo '<script type="text/javascript" src="/test.js"></script>';
 
 
 
 
-							echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/English/English_2016/' . $file . '"';
+							echo '<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers/English/English_2016/' . $file . '"';
 							echo '>';
 							echo '<img src="/images/downloads-icon.png" alt="Download file">';
 							echo '</a>';
@@ -100,7 +100,7 @@
 					<?php
 
 
-					$dir = scandir("./voice_of_humanity_2019_OL_past_papers/English/English_2017/");
+					$dir = scandir("../../voice_of_humanity_2019_OL_past_papers/English/English_2017/");
 					$c = count($dir);
 					sort($dir);
 
@@ -113,17 +113,17 @@
 
 
 							echo '<audio controls preload="none">';
-							echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/English/English_2017/' . $file . '"';
+							echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers/English/English_2017/' . $file . '"';
 
 							echo ' type="audio/mp3">';
 							echo 'Your browser does not support the audio element.';
 							echo '</audio>';
-							echo '<script type="text/javascript" src="test.js"></script>';
+							echo '<script type="text/javascript" src="/test.js"></script>';
 
 
 
 
-							echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/English/English_2017/' . $file . '"';
+							echo '<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers/English/English_2017/' . $file . '"';
 							echo '>';
 							echo '<img src="/images/downloads-icon.png" alt="Download file">';
 							echo '</a>';
@@ -153,7 +153,7 @@
 					<?php
 
 
-					$dir = scandir("./voice_of_humanity_2019_OL_past_papers/English/English_2018/");
+					$dir = scandir("../../voice_of_humanity_2019_OL_past_papers/English/English_2018/");
 					$c = count($dir);
 					sort($dir, 1);
 
@@ -170,17 +170,17 @@
 
 
 							echo '<audio controls preload="none">';
-							echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/English/English_2018/' . $file . '"';
+							echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers/English/English_2018/' . $file . '"';
 
 							echo ' type="audio/mp3">';
 							echo 'Your browser does not support the audio element.';
 							echo '</audio>';
-							echo '<script type="text/javascript" src="test.js"></script>';
+							echo '<script type="text/javascript" src="/test.js"></script>';
 
 
 
 
-							echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/English/English_2018/' . $file . '"';
+							echo '<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers/English/English_2018/' . $file . '"';
 							echo '>';
 							echo '<img src="/images/downloads-icon.png" alt="Download file">';
 							echo '</a>';
@@ -214,7 +214,7 @@
 					<?php
 
 
-					$dir = scandir("./voice_of_humanity_2019_OL_past_papers/English/English_2019/");
+					$dir = scandir("../../voice_of_humanity_2019_OL_past_papers/English/English_2019/");
 					$c = count($dir);
 					sort($dir, 1);
 
@@ -226,17 +226,17 @@
 
 
 							echo '<audio controls preload="none">';
-							echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/English/English_2019/' . $file . '"';
+							echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers/English/English_2019/' . $file . '"';
 
 							echo ' type="audio/mp3">';
 							echo 'Your browser does not support the audio element.';
 							echo '</audio>';
-							echo '<script type="text/javascript" src="test.js"></script>';
+							echo '<script type="text/javascript" src="/test.js"></script>';
 
 
 
 
-							echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/English/English_2019/' . $file . '"';
+							echo '<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers/English/English_2019/' . $file . '"';
 							echo '>';
 							echo '<img src="/images/downloads-icon.png" alt="Download file">';
 							echo '</a>';

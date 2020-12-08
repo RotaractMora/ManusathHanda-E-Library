@@ -46,7 +46,7 @@
           <?php
 
 
-          $dir = scandir("./voice_of_humanity_2019_OL_past_papers/sinhala/2016_sinhala/");
+          $dir = scandir("../../voice_of_humanity_2019_OL_past_papers/sinhala/2016_sinhala/");
           $c = count($dir);
           sort($dir, 1);
 
@@ -62,17 +62,17 @@
 
 
               echo '<audio controls preload="none">';
-              echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/sinhala/2016_sinhala/' . $file . '"';
+              echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers/sinhala/2016_sinhala/' . $file . '"';
 
               echo ' type="audio/mp3">';
               echo 'Your browser does not support the audio element.';
               echo '</audio>';
-              echo '<script type="text/javascript" src="test.js"></script>';
+              echo '<script type="text/javascript" src="/test.js"></script>';
 
 
 
 
-              echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/sinhala/2016_sinhala/' . $file . '"';
+              echo '<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers/sinhala/2016_sinhala/' . $file . '"';
               echo '>';
               echo '<img src="/images/downloads-icon.png" alt="Download file">';
               echo '</a>';
@@ -104,7 +104,7 @@
           <?php
 
 
-          $dir = scandir("./voice_of_humanity_2019_OL_past_papers/sinhala/2017_sinhala/");
+          $dir = scandir("../../voice_of_humanity_2019_OL_past_papers/sinhala/2017_sinhala/");
           $c = count($dir);
           sort($dir, 1);
 
@@ -121,18 +121,18 @@
 
 
               echo '<audio controls preload="none">';
-              echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/sinhala/2017_sinhala/' . $file . '"';
+              echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers/sinhala/2017_sinhala/' . $file . '"';
 
               echo ' type="audio/mp3">';
               echo 'Your browser does not support the audio element.';
               echo '</audio>';
 
-              echo '<script type="text/javascript" src="test.js"></script>';
+              echo '<script type="text/javascript" src="/test.js"></script>';
 
 
 
 
-              echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/sinhala/2017_sinhala/' . $file . '"';
+              echo '<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers/sinhala/2017_sinhala/' . $file . '"';
               echo '>';
               echo '<img src="/images/downloads-icon.png" alt="Download file">';
               echo '</a>';
@@ -162,7 +162,7 @@
           <?php
 
 
-          $dir = scandir("./voice_of_humanity_2019_OL_past_papers/sinhala/2018_sinhala/");
+          $dir = scandir("../../voice_of_humanity_2019_OL_past_papers/sinhala/2018_sinhala/");
           $c = count($dir);
           sort($dir, 1);
 
@@ -179,17 +179,17 @@
 
 
               echo '<audio controls preload="none">';
-              echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/sinhala/2018_sinhala/' . $file . '"';
+              echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers/sinhala/2018_sinhala/' . $file . '"';
 
               echo ' type="audio/mp3">';
               echo 'Your browser does not support the audio element.';
               echo '</audio>';
-              echo '<script type="text/javascript" src="test.js"></script>';
+              echo '<script type="text/javascript" src="/test.js"></script>';
 
 
 
 
-              echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/sinhala/2018_sinhala/' . $file . '"';
+              echo '<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers/sinhala/2018_sinhala/' . $file . '"';
               echo '>';
               echo '<img src="/images/downloads-icon.png" alt="Download file">';
               echo '</a>';
@@ -222,7 +222,7 @@
           <?php
 
 
-          $dir = scandir("./voice_of_humanity_2019_OL_past_papers/sinhala/2019_sinhala/");
+          $dir = scandir("../../voice_of_humanity_2019_OL_past_papers/sinhala/2019_sinhala/");
           $c = count($dir);
           sort($dir, 1);
 
@@ -234,17 +234,17 @@
 
 
               echo '<audio controls preload="none">';
-              echo '<source src=' . '"voice_of_humanity_2019_OL_past_papers/sinhala/2019_sinhala/' . $file . '"';
+              echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers/sinhala/2019_sinhala/' . $file . '"';
 
               echo ' type="audio/mp3">';
               echo 'Your browser does not support the audio element.';
               echo '</audio>';
-              echo '<script type="text/javascript" src="test.js"></script>';
+              echo '<script type="text/javascript" src="/test.js"></script>';
 
 
 
 
-              echo '<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/sinhala/2019_sinhala/' . $file . '"';
+              echo '<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers/sinhala/2019_sinhala/' . $file . '"';
               echo '>';
               echo '<img src="/images/downloads-icon.png" alt="Download file">';
               echo '</a>';

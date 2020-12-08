@@ -45,7 +45,7 @@
 <?php
 
 
-  $dir = scandir("./voice_of_humanity_2019_OL_past_papers/buddhism/2016_buddhism/");
+  $dir = scandir("../../voice_of_humanity_2019_OL_past_papers/buddhism/2016_buddhism/");
   $c=count($dir);
   sort($dir,1);
 
@@ -66,17 +66,17 @@
 
 
   						echo'<audio controls preload="none">';
-  							echo'<source src='.'"voice_of_humanity_2019_OL_past_papers/buddhism/2016_buddhism/'. $file .'"';
+  							echo'<source src='.'"/voice_of_humanity_2019_OL_past_papers/buddhism/2016_buddhism/'. $file .'"';
 
   							echo ' type="audio/mp3">';
   							echo'Your browser does not support the audio element.';
   						echo'</audio>';
-							echo '<script type="text/javascript" src="test.js"></script>';
+							echo '<script type="text/javascript" src="/test.js"></script>';
 
 
 
 
-              echo'<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/buddhism/2016_buddhism/'. $file.'"';
+              echo'<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers/buddhism/2016_buddhism/'. $file.'"';
               echo'>';
                 echo '<img src="/images/downloads-icon.png" alt="Download file">';
               echo '</a>';
@@ -108,7 +108,7 @@
           <?php
 
 
-  $dir = scandir("./voice_of_humanity_2019_OL_past_papers/buddhism/2017_buddhism/");
+  $dir = scandir("../../voice_of_humanity_2019_OL_past_papers/buddhism/2017_buddhism/");
   $c=count($dir);
   sort($dir,1);
 
@@ -130,17 +130,17 @@
 
 
   						echo'<audio controls preload="none">';
-  							echo'<source src='.'"voice_of_humanity_2019_OL_past_papers/buddhism/2017_buddhism/'. $file .'"';
+  							echo'<source src='.'"/voice_of_humanity_2019_OL_past_papers/buddhism/2017_buddhism/'. $file .'"';
 
   							echo ' type="audio/mp3">';
   							echo'Your browser does not support the audio element.';
   						echo'</audio>';
-							echo '<script type="text/javascript" src="test.js"></script>';
+							echo '<script type="text/javascript" src="/test.js"></script>';
 
 
 
 
-              echo'<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/buddhism/2017_buddhism/'. $file.'"';
+              echo'<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers/buddhism/2017_buddhism/'. $file.'"';
               echo'>';
                 echo '<img src="/images/downloads-icon.png" alt="Download file">';
               echo '</a>';
@@ -170,7 +170,7 @@
           <?php
 
 
-  $dir = scandir("./voice_of_humanity_2019_OL_past_papers/buddhism/2018_buddhism/");
+  $dir = scandir("../../voice_of_humanity_2019_OL_past_papers/buddhism/2018_buddhism/");
   $c=count($dir);
   sort($dir,1);
 
@@ -192,17 +192,17 @@
 
 
   						echo'<audio controls preload="none">';
-  							echo'<source src='.'"voice_of_humanity_2019_OL_past_papers/buddhism/2018_buddhism/'. $file .'"';
+  							echo'<source src='.'"/voice_of_humanity_2019_OL_past_papers/buddhism/2018_buddhism/'. $file .'"';
 
   							echo ' type="audio/mp3">';
   							echo'Your browser does not support the audio element.';
   						echo'</audio>';
-							echo '<script type="text/javascript" src="test.js"></script>';
+							echo '<script type="text/javascript" src="/test.js"></script>';
 
 
 
 
-              echo'<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/buddhism/2018_buddhism/'. $file.'"';
+              echo'<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers/buddhism/2018_buddhism/'. $file.'"';
               echo'>';
                 echo '<img src="/images/downloads-icon.png" alt="Download file">';
               echo '</a>';
@@ -232,7 +232,7 @@
           <?php
 
 
-  $dir = scandir("./voice_of_humanity_2019_OL_past_papers/buddhism/2019_buddhism/");
+  $dir = scandir("../../voice_of_humanity_2019_OL_past_papers/buddhism/2019_buddhism/");
   $c=count($dir);
   sort($dir,1);
 
@@ -246,17 +246,17 @@
          echo substr($file, 0, strlen($file) - 4) . "</br>";
 
   						echo'<audio controls preload="none">';
-  							echo'<source src='.'"voice_of_humanity_2019_OL_past_papers/buddhism/2019_buddhism/'. $file .'"';
+  							echo'<source src='.'"/voice_of_humanity_2019_OL_past_papers/buddhism/2019_buddhism/'. $file .'"';
 
   							echo ' type="audio/mp3">';
   							echo'Your browser does not support the audio element.';
   						echo'</audio>';
-							echo '<script type="text/javascript" src="test.js"></script>';
+							echo '<script type="text/javascript" src="/test.js"></script>';
 
 
 
 
-              echo'<a href="download.php?file=./voice_of_humanity_2019_OL_past_papers/buddhism/2019_buddhism/'. $file.'"';
+              echo'<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers/buddhism/2019_buddhism/'. $file.'"';
               echo'>';
                 echo '<img src="/images/downloads-icon.png" alt="Download file">';
               echo '</a>';
