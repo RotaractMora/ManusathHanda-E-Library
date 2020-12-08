@@ -10,27 +10,27 @@
                     <h4>Reach Us</h4>
                     <ul class="alt">
                         <li>
-                            <img src="./images/post.png" class="footer-post-icon" />
+                            <img src="/images/post.png" class="footer-post-icon" />
                             <!--<strong>Post</strong>-->
                             <br /> Rotaract Club of University of Moratuwa,<br> University of Moratuwa,<br> Bandaranayake Mawatha,<br> Moratuwa. <br> 10400
                         </li>
                         <li>
                             <strong>Janith Bimsara</strong>
                             <br/>
-                            <img src="./images/phone.png" class="footer-phone-icon" />
+                            <img src="/images/phone.png" class="footer-phone-icon" />
                             <!--<strong>Post</strong>-->
                             <a href="tel:+94719108576">(+94)71 910 8576</a>
                             <br/>
-                            <img src="./images/email.png" class="footer-email-icon" />
+                            <img src="/images/email.png" class="footer-email-icon" />
                             <!--<strong>Post</strong>-->
                             <a href="mailto:jbimsara98@gmail.com">jbimsara98@gmail.com</a><br />
                             <strong>Sithira Liyanage</strong>
                             <br/>
-                            <img src="./images/phone.png" class="footer-phone-icon" />
+                            <img src="/images/phone.png" class="footer-phone-icon" />
                             <!--<strong>Post</strong>-->
                             <a href="tel:+94712998848">(+94)71 299 8848</a>
                             <br/>
-                            <img src="./images/email.png" class="footer-email-icon" />
+                            <img src="/images/email.png" class="footer-email-icon" />
                             <!--<strong>Post</strong>-->
                             <a href="mailto:sithiraliyanage@gmail.com">sithiraliyanage@gmail.com</a>
                         </li>
@@ -57,7 +57,7 @@
                 <!--&copy; RotaractMora. Photos <a href="https://unsplash.co ">Unsplash</a>, Video <a href="https://coverr.co ">Coverr</a>.-->
                 &copy; 2020
                 <a href="http://rotaractmora.org ">
-                    <img src="./images/logosrota/New folder (4)/white logo2.png " class="footer-rota-logo" />
+                    <img src="/images/logosrota/New folder (4)/white logo2.png " class="footer-rota-logo" />
                 </a>
             </div>
 
@@ -65,11 +65,11 @@
     </footer>
 
     <!-- Scripts -->
-    <script src="assets/js/jquery.min.js "></script>
-    <script src="assets/js/browser.min.js "></script>
-    <script src="assets/js/breakpoints.min.js "></script>
-    <script src="assets/js/util.js "></script>
-    <script src="assets/js/main.js "></script>
+    <script src="/assets/js/jquery.min.js "></script>
+    <script src="/assets/js/browser.min.js "></script>
+    <script src="/assets/js/breakpoints.min.js "></script>
+    <script src="/assets/js/util.js "></script>
+    <script src="/assets/js/main.js "></script>
     <script>
         function navigateToRotaMora() {
             console.log("method ");
@@ -79,7 +79,7 @@
 
         function navigateToIndex() {
             console.log("method ");
-            window.location.href = './index.php';
+            window.location.href = '/';
 
         }
     </script>

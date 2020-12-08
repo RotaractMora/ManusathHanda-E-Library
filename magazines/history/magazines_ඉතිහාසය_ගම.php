@@ -1,6 +1,6 @@
 <?php
-    include_once('components/header.php');
-    include_once('components/navbar.php');
+    include_once('../../components/header.php');
+    include_once('../../components/navbar.php');
 ?>
 
 <!DOCTYPE HTML>
@@ -10,7 +10,8 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
-<?php echo getHeader('Past Papers'); ?>
+
+<?php echo getHeader('ගම'); ?>
 
 <body class="is-preload">
     <!-- Header -->
@@ -20,34 +21,32 @@
     <section class="wrapper">
         <div class="inner">
             <header class="special">
-                <h2>Select a Subject</h2>
+                <h2>ගම</h2>
             </header>
-            <div class="highlights" style="justify-content: center;">
+            <div class="highlights">
                 <!--Selectable categories-->
                 <section>
-                    <div class="content" style="cursor: pointer;" onclick="window.location='./past-papers/past_papers_ol.php';">
+                    <div class="content" style="cursor: pointer;" onclick="window.location='./village/magazines_ඉතිහාසය_ගම_එදා_ගමට_ආ_අය.php'">
                         <header>
                             <img src="/images/audiobook-icon-66.png" width="50%" />
-                            <h3>G.C.E. Ordinary Level - Past papers</h3>
+                            <h3>එදා ගමට ආ අය</h3>
                         </header>
                     </div>
                 </section>
-
                 <section>
-                    <div class="content" style="cursor: pointer;" onclick="window.location='./past-papers/past_papers_al.php';">
+                    <div class="content" style="cursor: pointer;" onclick="window.location='./village/magazines_ඉතිහාසය_ගම_ගමරාලගේ_කතාබහා.php'">
                         <header>
                             <img src="/images/audiobook-icon-66.png" width="50%" />
-                            <h3>G.C.E. Advanced Level - Past papers</h3>
+                            <h3>ගමරාලගේ කතාබහ</h3>
                         </header>
                     </div>
                 </section>
-
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <?php include_once('components/footer.php');?>
+    <?php include_once('../../components/footer.php');?>
 
 </body>
 

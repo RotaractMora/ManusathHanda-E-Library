@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <link rel="icon" href="./images/logosrota/New folder (4)//Colour logo tab_icon.png">
+    <link rel="icon" href="/images/logosrota/New folder (4)//Colour logo tab_icon.png">
     <link rel="stylesheet" href="./assets/css/main.css" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -52,7 +52,7 @@
     <header id="header">
         <div>
             <a href="./index.php">
-                <img src="./images/logosrota/New folder (4)/New folder/logo transperant3.png" class="header-logo2" />
+                <img src="/images/logosrota/New folder (4)/New folder/logo transperant3.png" class="header-logo2" />
             </a>
         </div>
         <div></div>
@@ -80,7 +80,7 @@
 
     <!-- Heading -->
     <!--<div id="heading_teams">
-        <img src="./images/logosrota/New folder (4)/New folder/logo transperant.png" style="max-width: 300px; height: auto; padding-bottom: 1.0%" />
+        <img src="/images/logosrota/New folder (4)/New folder/logo transperant.png" style="max-width: 300px; height: auto; padding-bottom: 1.0%" />
         <h1 style="max-width: 100%; height: auto; color: aliceblue; text-align: center;">Team</h1>
     </div>-->
 

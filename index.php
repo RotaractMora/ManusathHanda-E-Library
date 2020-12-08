@@ -18,7 +18,7 @@
 
     <section id="banner">
         <div class="class-banner-image">
-            <img src="./images/logosrota/New folder (4)/New folder/logo transperant4.png" id="banner-image">
+            <img src="/images/logosrota/New folder (4)/New folder/logo transperant4.png" id="banner-image">
             <div id="myCarousel" class="carousel slide" data-ride="carousel" role="listbox">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -77,7 +77,7 @@
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='magazines.php';">
                         <header>
-                            <img src="./images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" width="50%" />
                             <h3>Magazines</h3>
                         </header>
                         <p>Listen to an ever-growing collection of the most popular children's magazines</p>
@@ -86,7 +86,7 @@
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='past_papers.php'">
                         <header>
-                            <img src="./images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" width="50%" />
                             <h3>Past Papers</h3>
                         </header>
                         <p>Listen to the past papers of G.C.E. Ordinary Level exam</p>
@@ -113,7 +113,7 @@
                 <div class="carousel-inner" style="text-align: center;">
                     <div class="item active">
                         <div>
-                            <img id="blog-image" width="35%" height="auto" src="./images/photo manusath.jpg">
+                            <img id="blog-image" width="35%" height="auto" src="/images/photo manusath.jpg">
                             <div class="post-entry-content">
                                 <div class="content_post_grid">
                                     <p class="selectionShareable">As told by Rtr. Vihanga Jayawickrama “The purpose of life is not to be happy. It is to be useful, to be honourable, to be compassionate,... </p>
@@ -125,7 +125,7 @@
 
                     <div class="item">
                         <div>
-                            <img id="blog-image" width="35%" height="auto" src="./images/photo manusath2.jpg">
+                            <img id="blog-image" width="35%" height="auto" src="/images/photo manusath2.jpg">
                             <div class="post-entry-content">
                                 <div class="content_post_grid">
                                     <p class="selectionShareable">As written by Rtr. Nushan Vitharana “Open your eyes and see what’s happening in the world” We can see beauty. We can feel life. We... </p>

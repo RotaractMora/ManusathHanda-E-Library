@@ -11,8 +11,8 @@ function getHeader($title) {
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <link rel="icon" href="./images/logosrota/New folder (4)//Colour logo tab_icon.png">
-    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="icon" href="/images/logosrota/New folder (4)//Colour logo tab_icon.png">
+    <link rel="stylesheet" href="/assets/css/main.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144825636-4"></script>
     <script>
