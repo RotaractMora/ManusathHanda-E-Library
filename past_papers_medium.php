@@ -25,7 +25,7 @@ include_once('components/navbar.php');
             <div class="highlights" style="justify-content: center;">
                 <!--Selectable categories-->
                 <section>
-                    <div class="content" style="cursor: pointer;" onclick="window.location='./past-papers.php';">
+                    <div class="content" style="cursor: pointer;" onclick="window.location='./past_papers.php';">
                         <header>
                             <img src="/images/audiobook-icon-66.png" width="50%" />
                             <h3>Sinhala</h3>
