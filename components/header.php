@@ -10,8 +10,13 @@ function getHeader($title)
     <title>' . $title . '</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta name="description" content="Manusath Handa (Voice of Humanity) aimed at resolving the lack of educational resources for visually impaired students in Sri Lanka by providing supplementary resources in audio format. With the collaboration of Wijeya Newspapers, selected Wijeya Newspaper articles related to the school curriculum of grades 6 to 11 were converted to audio format by project participants. A collection of articles related to the subjects Science, History, Buddhism, and Sinhala were recorded" />
+    <meta name="keywords" content="Manusath Handa,Visual,Impared,RotaractMora,ManittanKural,VoiceOfHumanity" />
+    <meta property="og:title" content="'.$title.'" />
+    <meta property="og:description" content="Manusath Handa (Voice of Humanity) aimed at resolving the lack of educational resources for visually impaired students in Sri Lanka by providing supplementary resources in audio format. With the collaboration of Wijeya Newspapers, selected Wijeya Newspaper articles related to the school curriculum of grades 6 to 11 were converted to audio format by project participants. A collection of articles related to the subjects Science, History, Buddhism, and Sinhala were recorded"
+    />
+    <meta property="og:image" content="https://manusathhanda.rotaractmora.org/images/og_icon.jpg" />
+    <meta property="og:url" content="https://manusathhanda.rotaractmora.org" />
     <link rel="icon" href="/images/logosrota/New folder (4)//Colour logo tab_icon.png">
     <link rel="stylesheet" href="/assets/css/main.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
