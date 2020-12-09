@@ -84,12 +84,12 @@ include_once('components/navbar.php');
                     </div>
                 </section>
                 <section>
-                    <div class="content" style="cursor: pointer;" onclick="window.location='past_papers.php'">
+                    <div class="content" style="cursor: pointer;" onclick="window.location='past_papers_medium.php'">
                         <header>
                             <img src="/images/audiobook-icon-66.png" width="50%" />
                             <h3>Past Papers</h3>
                         </header>
-                        <p>Listen to the past papers of G.C.E. Ordinary Level exam</p>
+                        <p>Listen to the past papers of G.C.E. Ordinary Level and G.C.E. Advanced Level exams in sinhala and tamil mediums.</p>
                     </div>
                 </section>
                 <section>
