@@ -14,7 +14,9 @@ function getNavBar()
         <a href="/magazines.php">Magazines</a>
         <a href="/past_papers_medium.php">Past Papers</a>
         <a href="/short_stories.php">Short Stories</a>
+        <a href="/andurata_athwelak.php">Andurata Athwelak</a>
         <a href="/team.php">Team</a>
+        <a aria-hidden="true" href="https://portal.manusathhanda.rotaractmora.org">Donate Your Voice now</a>
     </nav>
     <nav id="a">
         <a href="#menu"></a>
@@ -29,7 +31,11 @@ function getNavBar()
         <li style="padding-bottom: 2%;"><a href="/magazines.php">Magazines</a></li>
         <li style="padding-bottom: 2%;"><a href="/past_papers_medium.php">Past Papers</a></li>
         <li style="padding-bottom: 2%;"><a href="/short_stories.php">Short Stories</a></li>
+        <li style="padding-bottom: 2%;"><a href="/andurata_athwelak.php">Andurata Athwelak</a></li>
         <li style="padding-bottom: 2%;"><a href="/team.php">Team</a></li>
+        <li style="padding-bottom: 2%;">
+            <a aria-hidden="true" href="https://portal.manusathhanda.rotaractmora.org">Donate Your Voice now</a>
+        </li>
     </ul>
 </nav>';
 }

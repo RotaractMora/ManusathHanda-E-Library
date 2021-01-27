@@ -35,15 +35,15 @@ include_once('components/navbar.php');
                     </div>
 
                     <div class="item">
+                        <p>An initiative of Rotaract Mora to uplift the education for the visually impaired students through audiobooks.</p>
+                    </div>
+
+                    <div class="item">
                         <p width>මෙම ව්‍යාපෘතිය ශ්‍රී ලංකා විභාග දෙපාර්තමේන්තුවේ සහ විජය පුවත්පත් සමාගමේ අවසරය මත සිදු කරන ලද්දකි.</p>
                     </div>
 
                     <div class="item">
                         <p>මනුසත් හඬ යනු ශ්‍රී ලංකාවේ දෘශ්‍යාබාධිත සිසුන්ගේ අධ්‍යාපනික හා සාහිත්‍යමය දැනුම වර්ධනය කරලීම සඳහා මොරටුව විශ්ව විද්‍යාලයේ රොටරැක්ට් සමාජය විසින් කරනු ලබන සමාජ සත්කාරක ව්‍යාපෘතියකි.</p>
-                    </div>
-
-                    <div class="item">
-                        <p>An initiative of Rotaract Mora to uplift the education for the visually impaired students through audiobooks.</p>
                     </div>
 
                 </div>
@@ -99,6 +99,25 @@ include_once('components/navbar.php');
                             <h3>Short Stories</h3>
                         </header>
                         <p>Listen to a collection of short stories</p>
+                    </div>
+                </section>
+                <section>
+                    <div class="content" style="cursor: pointer;" onclick="window.location='./andurata-athwelak/spoken-english.php';">
+                        <header>
+                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <h3>Spoken English course - Andurata Athwelak</h3>
+                        </header>
+                        <p>Listen to a series of a day to day conversions to improve your spoken english skills.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="content" style="cursor: pointer;" onclick="window.location='./andurata-athwelak/it-course.php';">
+                        <header>
+                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <h3>Basic Computer Knowledge course - Andurata Athwelak</h3>
+                        </header>
+                        <p>Listen to a growing collection that gives basic computer knowledge for day to day life and corporate work.</p>
                     </div>
                 </section>
             </div>
