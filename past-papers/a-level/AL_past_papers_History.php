@@ -11,7 +11,7 @@ include_once('../../components/navbar.php');
 -->
 <html>
 
-<?php echo getHeader('RotaractMora Manusath Handa'); ?>
+<?php echo getHeader(' | Past Papers | Sinhala Medium | Advanced Level | History'); ?>
 
 <body class="is-preload">
   <!-- Header -->

@@ -11,7 +11,7 @@ include_once('../../components/navbar.php');
 -->
 <html>
 
-<?php echo getHeader('ගම'); ?>
+<?php echo getHeader(' | Magazine | History | ගම'); ?>
 
 <body class="is-preload">
     <!-- Header -->

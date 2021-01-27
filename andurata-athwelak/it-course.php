@@ -10,7 +10,7 @@ include_once('../components/navbar.php');
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
-<?php echo getHeader('RotaractMora Manusath Handa | Basic Computer Knowledge course'); ?>
+<?php echo getHeader(' | Basic Computer Knowledge course'); ?>
 
 <body class="is-preload">
 	<!-- Header -->

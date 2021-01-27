@@ -10,7 +10,7 @@ include_once('components/navbar.php');
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
-<?php echo getHeader('Team'); ?>
+<?php echo getHeader(' | Team'); ?>
 
 <body class="is-preload">
     <!-- Header -->

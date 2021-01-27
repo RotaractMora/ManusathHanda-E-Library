@@ -10,7 +10,7 @@ include_once('../../components/navbar.php');
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
-<?php echo getHeader('අපේ පුරාණ විත්ති මහාචාර්ය රාජ් සෝමදේව'); ?>
+<?php echo getHeader(' | Magazine | History | අපේ පුරාණ විත්ති මහාචාර්ය රාජ් සෝමදේව'); ?>
 
 <body class="is-preload">
   <!-- Header -->

@@ -9,7 +9,7 @@ include_once('../components/navbar.php');
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
-<?php echo getHeader('Magazines'); ?>
+<?php echo getHeader(' | Magazine | Folk tales'); ?>
 
 <body class="is-preload">
     <!-- Header -->
