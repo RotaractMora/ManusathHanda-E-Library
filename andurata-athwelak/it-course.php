@@ -43,12 +43,18 @@ include_once('../components/navbar.php');
 					echo '</div>';
 					echo '<div id="collapse' . $x . '" class="panel-collapse collapse">';
 					echo '<br>';
-					echo '<audio controls preload="none">';
-					echo '<source src=' . '"/andurata_athwelak/it_course/' . $file . '"';
+					if(substr($file, strlen($file) - 4, 4) == '.mp4') {
+						echo '<video controls preload="none" poster="/images/posters/'.substr($file, 0, strlen($file) - 4).'.jpg" width="300">
+								<source src="/andurata_athwelak/it_course/' . $file . '" type="video/mp4">
+							</video>';
+					} else {
+						echo '<audio controls preload="none">';
+						echo '<source src=' . '"/andurata_athwelak/it_course/' . $file . '"';
 
-					echo ' type="audio/mp3">';
-					echo 'Your browser does not support the audio element.';
-					echo '</audio>';
+						echo ' type="audio/mp3">';
+						echo 'Your browser does not support the audio element.';
+						echo '</audio>';
+					}
 					echo '<script type="text/javascript" src="/test.js"></script>';
 					echo '<a href="/download.php?file=./andurata_athwelak/it_course/' . $file . '"';
 					echo '>';
