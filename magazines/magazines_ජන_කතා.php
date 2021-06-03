@@ -24,20 +24,24 @@ include_once('../components/navbar.php');
             <div class="highlights">
                 <!--Selectable categories-->
                 <section>
-                    <div class="content" style="cursor: pointer;" onclick="window.location='./folk-tales/magazines_ජන_කතා_දේශීය_ජන_කතා.php'">
-                        <header>
-                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
-                            <h3>දේශීය ජන කතා</h3>
-                        </header>
-                    </div>
+                    <a href="./folk-tales/magazines_ජන_කතා_දේශීය_ජන_කතා.php">
+                        <div class="content" style="cursor: pointer;">
+                            <header>
+                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <h3>දේශීය ජන කතා</h3>
+                            </header>
+                        </div>
+                    </a>
                 </section>
                 <section>
-                    <div class="content" style="cursor: pointer;" onclick="window.location='./folk-tales/magazines_ජන_කතා_රට_රට_වල_ජන_කතා.php'">
-                        <header>
-                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
-                            <h3>රට රට වල ජන කතා</h3>
-                        </header>
-                    </div>
+                    <a href="./folk-tales/magazines_ජන_කතා_රට_රට_වල_ජන_කතා.php">
+                        <div class="content" style="cursor: pointer;">
+                            <header>
+                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <h3>රට රට වල ජන කතා</h3>
+                            </header>
+                        </div>
+                    </a>
                 </section>
             </div>
         </div>

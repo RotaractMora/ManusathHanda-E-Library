@@ -49,6 +49,7 @@ function getHeader($title)
     <style>
         section a {
             text-decoration: none !important;
+            color: #23527c;
         }
     </style>
 </head>';

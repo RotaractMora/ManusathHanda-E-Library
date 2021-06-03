@@ -26,20 +26,24 @@ include_once('../../components/navbar.php');
             <div class="highlights">
                 <!--Selectable categories-->
                 <section>
-                    <div class="content" style="cursor: pointer;" onclick="window.location='./village/magazines_ඉතිහාසය_ගම_එදා_ගමට_ආ_අය.php'">
-                        <header>
-                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
-                            <h3>එදා ගමට ආ අය</h3>
-                        </header>
-                    </div>
+                    <a href="./village/magazines_ඉතිහාසය_ගම_එදා_ගමට_ආ_අය.php">
+                        <div class="content" style="cursor: pointer;">
+                            <header>
+                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <h3>එදා ගමට ආ අය</h3>
+                            </header>
+                        </div>
+                    </a>
                 </section>
                 <section>
-                    <div class="content" style="cursor: pointer;" onclick="window.location='./village/magazines_ඉතිහාසය_ගම_ගමරාලගේ_කතාබහා.php'">
-                        <header>
-                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
-                            <h3>ගමරාලගේ කතාබහ</h3>
-                        </header>
-                    </div>
+                    <a href="./village/magazines_ඉතිහාසය_ගම_ගමරාලගේ_කතාබහා.php">
+                        <div class="content" style="cursor: pointer;">
+                            <header>
+                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <h3>ගමරාලගේ කතාබහ</h3>
+                            </header>
+                        </div>
+                    </a>
                 </section>
             </div>
         </div>
