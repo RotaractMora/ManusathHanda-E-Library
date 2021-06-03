@@ -27,7 +27,7 @@ include_once('components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./past-papers/past_papers_ol.php';">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
                             <h3>G.C.E. Ordinary Level - Past papers</h3>
                         </header>
                     </div>
@@ -36,7 +36,7 @@ include_once('components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./past-papers/past_papers_al.php';">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
                             <h3>G.C.E. Advanced Level - Past papers</h3>
                         </header>
                     </div>

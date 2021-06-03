@@ -16,38 +16,38 @@ include_once('../../../components/navbar.php');
     <!-- Header -->
     <?php echo getNavBar(); ?>
 
-        <!-- Highlights -->
-        <section class="wrapper">
-            <div class="inner">
-                <header class="special">
-                    <h2>Select a section</h2>
-                </header>
-                <div class="highlights justify-content-center">
-                    <!--Selectable categories-->
-                    <section>
-                        <div class="content" style="cursor: pointer;" onclick="window.location='./conversations.php'">
-                            <header>
-                                <img src="/images/audiobook-icon-66.png" width="50%" />
-                                <h3>Conversations</h3>
-                            </header>
-                        </div>
-                    </section>
+    <!-- Highlights -->
+    <section class="wrapper">
+        <div class="inner">
+            <header class="special">
+                <h2>Select a section</h2>
+            </header>
+            <div class="highlights justify-content-center">
+                <!--Selectable categories-->
+                <section>
+                    <div class="content" style="cursor: pointer;" onclick="window.location='./conversations.php'">
+                        <header>
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                            <h3>Conversations</h3>
+                        </header>
+                    </div>
+                </section>
 
-                    <section>
-                        <div class="content" style="cursor: pointer;" onclick="window.location='./conversations-with-translation.php'">
-                            <header>
-                                <img src="/images/audiobook-icon-66.png" width="50%" />
-                                <h3>Conversations (With Translation)</h3>
-                            </header>
-                        </div>
-                    </section>
-                </div>
+                <section>
+                    <div class="content" style="cursor: pointer;" onclick="window.location='./conversations-with-translation.php'">
+                        <header>
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                            <h3>Conversations (With Translation)</h3>
+                        </header>
+                    </div>
+                </section>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Footer -->
-        <?php include_once('../../../components/footer.php'); ?>
+    <!-- Footer -->
+    <?php include_once('../../../components/footer.php'); ?>
 
-    </body>
+</body>
 
 </html>

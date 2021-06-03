@@ -27,7 +27,7 @@ include_once('components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./magazines/magazines_අභ්‍යවකාශය.php'">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
                             <h3>අභ්‍යවකාශය</h3>
                         </header>
                     </div>
@@ -35,7 +35,7 @@ include_once('components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./magazines/magazines_ඉතිහාසය.php'">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
                             <h3>ඉතිහාසය</h3>
                         </header>
                     </div>
@@ -43,7 +43,7 @@ include_once('components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./magazines/magazines_කලාව_හා_ආගම.php';">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
                             <h3>කලාව හා ආගම</h3>
                         </header>
                     </div>
@@ -51,7 +51,7 @@ include_once('components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./magazines/magazines_ජන_කතා.php'">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
                             <h3>ජන කතා</h3>
                         </header>
                     </div>
@@ -59,7 +59,7 @@ include_once('components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./magazines/magazines_විද්‍යාව.php';">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
                             <h3>විද්‍යාව</h3>
                         </header>
                     </div>
@@ -67,7 +67,7 @@ include_once('components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./magazines/magazines_විවිධ.php';">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
                             <h3>විවිධ</h3>
                         </header>
                     </div>
@@ -75,7 +75,7 @@ include_once('components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./magazines/magazines_literature.php';">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
                             <h3>සාහිත්‍යය</h3>
                         </header>
                     </div>

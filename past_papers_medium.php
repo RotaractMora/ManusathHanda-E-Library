@@ -27,7 +27,7 @@ include_once('components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./past_papers.php';">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
                             <h3>Sinhala</h3>
                         </header>
                     </div>
@@ -36,7 +36,7 @@ include_once('components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./past-papers-tamil/past_papers_ol.php';">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
                             <h3>Tamil</h3>
                         </header>
                     </div>
