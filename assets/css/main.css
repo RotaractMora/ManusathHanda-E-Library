@@ -4550,6 +4550,6 @@ body.is-menu-visible #menu {
     }
 }
 
-section>a {
+section a {
     text-decoration: none !important;
 }
