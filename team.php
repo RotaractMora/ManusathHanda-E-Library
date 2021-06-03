@@ -9,7 +9,7 @@ include_once('components/navbar.php');
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
-<html>
+<html lang="en">
 <?php echo getHeader(' | Team'); ?>
 
 <body class="is-preload">
@@ -171,7 +171,7 @@ include_once('components/navbar.php');
                             <li>Miss. Chamali Dewmini Thanthiriwattha</li>
                             <li>Rtr. Chamika Erandi Wickramarathne</li>
                             <li>Miss. Oshadi Jayathilaka</li>
-			    <li>Rtr. M.K.Sujanai Thuthilochana</li>
+                            <li>Rtr. M.K.Sujanai Thuthilochana</li>
                         </ul>
                     </div>
                 </div>

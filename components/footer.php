@@ -15,27 +15,27 @@
                 <h4>Reach Us</h4>
                 <ul class="alt">
                     <li>
-                        <img src="/images/post.png" class="footer-post-icon" />
+                        <img src="/images/post.png" class="footer-post-icon" alt="address" />
                         <!--<strong>Post</strong>-->
                         <br /> Rotaract Club of University of Moratuwa,<br> University of Moratuwa,<br> Bandaranayake Mawatha,<br> Moratuwa. <br> 10400
                     </li>
                     <li>
                         <strong>Janith Bimsara</strong>
                         <br />
-                        <img src="/images/phone.png" class="footer-phone-icon" />
+                        <img src="/images/phone.png" class="footer-phone-icon" alt="mobile number" />
                         <!--<strong>Post</strong>-->
                         <a href="tel:+94719108576">(+94)71 910 8576</a>
                         <br />
-                        <img src="/images/email.png" class="footer-email-icon" />
+                        <img src="/images/email.png" class="footer-email-icon" alt="email address" />
                         <!--<strong>Post</strong>-->
                         <a href="mailto:jbimsara98@gmail.com">jbimsara98@gmail.com</a><br />
                         <strong>Sithira Liyanage</strong>
                         <br />
-                        <img src="/images/phone.png" class="footer-phone-icon" />
+                        <img src="/images/phone.png" class="footer-phone-icon" alt="mobile number" />
                         <!--<strong>Post</strong>-->
                         <a href="tel:+94712998848">(+94)71 299 8848</a>
                         <br />
-                        <img src="/images/email.png" class="footer-email-icon" />
+                        <img src="/images/email.png" class="footer-email-icon" alt="email address" />
                         <!--<strong>Post</strong>-->
                         <a href="mailto:sithiraliyanage@gmail.com">sithiraliyanage@gmail.com</a>
                     </li>

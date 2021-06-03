@@ -9,7 +9,7 @@ include_once('components/navbar.php');
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
-<html>
+<html lang="en">
 <?php echo getHeader(' | Home'); ?>
 
 <body class="is-preload">
@@ -18,7 +18,7 @@ include_once('components/navbar.php');
 
     <section id="banner">
         <div class="class-banner-image">
-            <img src="/images/logosrota/New folder (4)/New folder/logo transperant4.png" id="banner-image">
+            <img src="/images/logosrota/New folder (4)/New folder/logo transperant4.png" id="banner-image" alt="">
             <div id="myCarousel" class="carousel slide" data-ride="carousel" role="listbox">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -141,7 +141,7 @@ include_once('components/navbar.php');
                 <div class="carousel-inner" style="text-align: center;">
                     <div class="item active">
                         <div>
-                            <img id="blog-image" width="35%" height="auto" src="/images/photo manusath.jpg">
+                            <img id="blog-image" width="35%" height="auto" src="/images/photo manusath.jpg" alt="">
                             <div class="post-entry-content">
                                 <div class="content_post_grid">
                                     <p class="selectionShareable">As told by Rtr. Vihanga Jayawickrama “The purpose of life is not to be happy. It is to be useful, to be honourable, to be compassionate,... </p>
@@ -153,7 +153,7 @@ include_once('components/navbar.php');
 
                     <div class="item">
                         <div>
-                            <img id="blog-image" width="35%" height="auto" src="/images/photo manusath2.jpg">
+                            <img id="blog-image" width="35%" height="auto" src="/images/photo manusath2.jpg" alt="">
                             <div class="post-entry-content">
                                 <div class="content_post_grid">
                                     <p class="selectionShareable">As written by Rtr. Nushan Vitharana “Open your eyes and see what’s happening in the world” We can see beauty. We can feel life. We... </p>

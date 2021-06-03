@@ -9,7 +9,7 @@ include_once('../../components/navbar.php');
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
-<html>
+<html lang="en">
 <?php echo getHeader(' | Past Papers | Tamil Medium | Ordinary Level | History'); ?>
 
 <body class="is-preload">
@@ -32,63 +32,63 @@ include_once('../../components/navbar.php');
         </div>
 
         <div class="panel-group" id="accordion">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">2019</a>
-                            </h4>
-                        </div>
-                        <div id="collapse7" class="panel-collapse collapse">
-                            <?php
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">2019</a>
+                    </h4>
+                </div>
+                <div id="collapse7" class="panel-collapse collapse">
+                    <?php
 
 
-                            $dir = scandir("../../voice_of_humanity_2019_OL_past_papers_tamil/History/2019_history/");
-                            $c = count($dir);
-                            sort($dir, 1);
+                    $dir = scandir("../../voice_of_humanity_2019_OL_past_papers_tamil/History/2019_history/");
+                    $c = count($dir);
+                    sort($dir, 1);
 
-                            for ($x = 0; $x < $c; $x++) {
-                                $file = $dir[$x];
-                                if (strcmp($file, ".") != 0 and strcmp($file, "..") != 0) {
-                                    echo '<div class="panel-body" class="raw">';
-                                    echo substr($file, 0, strlen($file) - 4) . "</br>";
-
-
-                                    echo '<audio controls preload="none">';
-                                    echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers_tamil/History/2019_history/' . $file . '"';
-
-                                    echo ' type="audio/mp3">';
-                                    echo 'Your browser does not support the audio element.';
-                                    echo '</audio>';
-                                    echo '<script type="text/javascript" src="/test.js"></script>';
+                    for ($x = 0; $x < $c; $x++) {
+                        $file = $dir[$x];
+                        if (strcmp($file, ".") != 0 and strcmp($file, "..") != 0) {
+                            echo '<div class="panel-body" class="raw">';
+                            echo substr($file, 0, strlen($file) - 4) . "</br>";
 
 
+                            echo '<audio controls preload="none">';
+                            echo '<source src=' . '"/voice_of_humanity_2019_OL_past_papers_tamil/History/2019_history/' . $file . '"';
 
-
-                                    echo '<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers_tamil/History/2019_history/' . $file . '"';
-                                    echo '>';
-                                    echo '<img src="/images/downloads-icon.png" alt="Download file">';
-                                    echo '</a>';
+                            echo ' type="audio/mp3">';
+                            echo 'Your browser does not support the audio element.';
+                            echo '</audio>';
+                            echo '<script type="text/javascript" src="/test.js"></script>';
 
 
 
 
-
-                                    echo '</div>';
-                                }
-                            }
-
-                            //close
+                            echo '<a href="/download.php?file=./voice_of_humanity_2019_OL_past_papers_tamil/History/2019_history/' . $file . '"';
+                            echo '>';
+                            echo '<img src="/images/downloads-icon.png" alt="Download file">';
+                            echo '</a>';
 
 
-                            ?>
 
-                        </div>
-                    </div>
+
+
+                            echo '</div>';
+                        }
+                    }
+
+                    //close
+
+
+                    ?>
 
                 </div>
-
             </div>
+
         </div>
+
+    </div>
+    </div>
     </div>
     <!-- Footer -->
     <?php include_once('../../components/footer.php'); ?>

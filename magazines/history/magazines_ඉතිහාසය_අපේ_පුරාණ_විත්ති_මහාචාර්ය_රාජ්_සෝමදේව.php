@@ -9,7 +9,7 @@ include_once('../../components/navbar.php');
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
-<html>
+<html lang="en">
 <?php echo getHeader(' | Magazine | History | අපේ පුරාණ විත්ති මහාචාර්ය රාජ් සෝමදේව'); ?>
 
 <body class="is-preload">
