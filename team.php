@@ -171,6 +171,7 @@ include_once('components/navbar.php');
                             <li>Miss. Chamali Dewmini Thanthiriwattha</li>
                             <li>Rtr. Chamika Erandi Wickramarathne</li>
                             <li>Miss. Oshadi Jayathilaka</li>
+			    <li>Rtr. M.K.Sujanai Thuthilochana</li>	
                         </ul>
                     </div>
                 </div>
