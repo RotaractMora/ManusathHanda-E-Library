@@ -27,7 +27,7 @@ include_once('../components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./history/magazines_ඉතිහාසය_අපේ_පුරාණ_විත්ති_මහාචාර්ය_රාජ්_සෝමදේව.php'">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
                             <h3>අපේ පුරාණ විත්ති මහාචාර්ය රාජ් සෝමදේව</h3>
                         </header>
                     </div>
@@ -35,7 +35,7 @@ include_once('../components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./history/magazines_ඉතිහාසය_ගම.php'">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
                             <h3>ගම</h3>
                         </header>
                     </div>
@@ -43,7 +43,7 @@ include_once('../components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./history/magazines_ඉතිහාසය_දේශගවේෂණය.php';">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
                             <h3>දේශ ගවේෂණය</h3>
                         </header>
                     </div>
@@ -51,7 +51,7 @@ include_once('../components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./history/magazines_ඉතිහාසය_දේශපාලනය.php';">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
                             <h3>දේශපාලනය</h3>
                         </header>
                     </div>

@@ -77,7 +77,7 @@ include_once('components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='magazines.php';">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
                             <h3>Magazines</h3>
                         </header>
                         <p>Listen to an ever-growing collection of the most popular children's magazines</p>
@@ -86,7 +86,7 @@ include_once('components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='past_papers_medium.php'">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
                             <h3>Past Papers</h3>
                         </header>
                         <p>Listen to the past papers of G.C.E. Ordinary Level and G.C.E. Advanced Level exams in sinhala and tamil mediums.</p>
@@ -95,7 +95,7 @@ include_once('components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='short_stories.php'">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
                             <h3>Short Stories</h3>
                         </header>
                         <p>Listen to a collection of short stories</p>
@@ -104,7 +104,7 @@ include_once('components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./andurata-athwelak/spoken-english.php';">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
                             <h3>Spoken English course - Andurata Athwelak</h3>
                         </header>
                         <p>Listen to a series of a day to day conversions to improve your spoken english skills.</p>
@@ -114,7 +114,7 @@ include_once('components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./andurata-athwelak/it-course.php';">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
                             <h3>Basic Computer Knowledge course - Andurata Athwelak</h3>
                         </header>
                         <p>Listen to a growing collection that gives basic computer knowledge for day to day life and corporate work.</p>
