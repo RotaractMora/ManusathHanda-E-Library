@@ -4549,7 +4549,3 @@ body.is-menu-visible #menu {
         max-width: 200px;
     }
 }
-
-section a {
-    text-decoration: none !important;
-}
