@@ -19,7 +19,7 @@ function getNavBar()
         <a aria-hidden="true" href="https://portal.manusathhanda.rotaractmora.org">Donate Your Voice now</a>
     </nav>
     <nav id="a">
-        <a href="#menu"></a>
+        <a href="#menu" aria-label="menu"></a>
     </nav>
 
 </header>

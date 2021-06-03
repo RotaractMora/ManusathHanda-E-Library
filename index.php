@@ -75,50 +75,60 @@ include_once('components/navbar.php');
             </header>
             <div class="highlights" id="homepage-buttons">
                 <section>
-                    <div class="content" style="cursor: pointer;" onclick="window.location='magazines.php';">
-                        <header>
-                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
-                            <h3>Magazines</h3>
-                        </header>
-                        <p>Listen to an ever-growing collection of the most popular children's magazines</p>
-                    </div>
+                    <a href="magazines.php">
+                        <div class="content" style="cursor: pointer;">
+                            <header>
+                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <h3>Magazines</h3>
+                            </header>
+                            <p>Listen to an ever-growing collection of the most popular children's magazines</p>
+                        </div>
+                    </a>
                 </section>
                 <section>
-                    <div class="content" style="cursor: pointer;" onclick="window.location='past_papers_medium.php'">
-                        <header>
-                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
-                            <h3>Past Papers</h3>
-                        </header>
-                        <p>Listen to the past papers of G.C.E. Ordinary Level and G.C.E. Advanced Level exams in sinhala and tamil mediums.</p>
-                    </div>
+                    <a href="past_papers_medium.php">
+                        <div class="content" style="cursor: pointer;">
+                            <header>
+                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <h3>Past Papers</h3>
+                            </header>
+                            <p>Listen to the past papers of G.C.E. Ordinary Level and G.C.E. Advanced Level exams in sinhala and tamil mediums.</p>
+                        </div>
+                    </a>
                 </section>
                 <section>
-                    <div class="content" style="cursor: pointer;" onclick="window.location='short_stories.php'">
-                        <header>
-                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
-                            <h3>Short Stories</h3>
-                        </header>
-                        <p>Listen to a collection of short stories</p>
-                    </div>
+                    <a href="short_stories.php">
+                        <div class="content" style="cursor: pointer;">
+                            <header>
+                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <h3>Short Stories</h3>
+                            </header>
+                            <p>Listen to a collection of short stories</p>
+                        </div>
+                    </a>
                 </section>
                 <section>
-                    <div class="content" style="cursor: pointer;" onclick="window.location='./andurata-athwelak/spoken-english.php';">
-                        <header>
-                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
-                            <h3>Spoken English course - Andurata Athwelak</h3>
-                        </header>
-                        <p>Listen to a series of a day to day conversions to improve your spoken english skills.</p>
-                    </div>
+                    <a href="./andurata-athwelak/spoken-english.php">
+                        <div class="content" style="cursor: pointer;">
+                            <header>
+                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <h3>Spoken English course - Andurata Athwelak</h3>
+                            </header>
+                            <p>Listen to a series of a day to day conversions to improve your spoken english skills.</p>
+                        </div>
+                    </a>
                 </section>
 
                 <section>
-                    <div class="content" style="cursor: pointer;" onclick="window.location='./andurata-athwelak/it-course.php';">
-                        <header>
-                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
-                            <h3>Basic Computer Knowledge course - Andurata Athwelak</h3>
-                        </header>
-                        <p>Listen to a growing collection that gives basic computer knowledge for day to day life and corporate work.</p>
-                    </div>
+                    <a href="./andurata-athwelak/it-course.php">
+                        <div class="content" style="cursor: pointer;">
+                            <header>
+                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <h3>Basic Computer Knowledge course - Andurata Athwelak</h3>
+                            </header>
+                            <p>Listen to a growing collection that gives basic computer knowledge for day to day life and corporate work.</p>
+                        </div>
+                    </a>
                 </section>
             </div>
         </div>
@@ -145,7 +155,7 @@ include_once('components/navbar.php');
                             <div class="post-entry-content">
                                 <div class="content_post_grid">
                                     <p class="selectionShareable">As told by Rtr. Vihanga Jayawickrama “The purpose of life is not to be happy. It is to be useful, to be honourable, to be compassionate,... </p>
-                                    <h4 class="large_continue_reading"><span><a href="http://rotaractmora.org/blog/manusath-handa-the-voice-of-humanity/" target="_blank">Continue reading</a></span></h4>
+                                    <h4 class="large_continue_reading"><span><a href="http://rotaractmora.org/blog/manusath-handa-the-voice-of-humanity/" aria-label="Read the full blog" target="_blank">Continue reading</a></span></h4>
                                 </div>
                             </div>
                         </div>
@@ -157,7 +167,7 @@ include_once('components/navbar.php');
                             <div class="post-entry-content">
                                 <div class="content_post_grid">
                                     <p class="selectionShareable">As written by Rtr. Nushan Vitharana “Open your eyes and see what’s happening in the world” We can see beauty. We can feel life. We... </p>
-                                    <h4 class="large_continue_reading"><span><a href="http://rotaractmora.org/blog/manusath-handa-voice-of-humanity/" target="_blank">Continue reading</a></span></h4>
+                                    <h4 class="large_continue_reading"><span><a href="http://rotaractmora.org/blog/manusath-handa-voice-of-humanity/" aria-label="Read the full blog" target="_blank">Continue reading</a></span></h4>
                                 </div>
                             </div>
                         </div>

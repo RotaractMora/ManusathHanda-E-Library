@@ -25,21 +25,25 @@ include_once('components/navbar.php');
             <div class="highlights" style="justify-content: center;">
                 <!--Selectable categories-->
                 <section>
-                    <div class="content" style="cursor: pointer;" onclick="window.location='./past_papers.php';">
-                        <header>
-                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
-                            <h3>Sinhala</h3>
-                        </header>
-                    </div>
+                    <a href="./past_papers.php">
+                        <div class="content" style="cursor: pointer;">
+                            <header>
+                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <h3>Sinhala</h3>
+                            </header>
+                        </div>
+                    </a>
                 </section>
 
                 <section>
-                    <div class="content" style="cursor: pointer;" onclick="window.location='./past-papers-tamil/past_papers_ol.php';">
-                        <header>
-                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
-                            <h3>Tamil</h3>
-                        </header>
-                    </div>
+                    <a href="./past-papers-tamil/past_papers_ol.php">
+                        <div class="content" style="cursor: pointer;">
+                            <header>
+                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <h3>Tamil</h3>
+                            </header>
+                        </div>
+                    </a>
                 </section>
 
             </div>

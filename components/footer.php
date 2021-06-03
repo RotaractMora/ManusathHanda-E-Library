@@ -59,7 +59,7 @@
             <!--&copy; RotaractMora. Photos <a href="https://unsplash.co ">Unsplash</a>, Video <a href="https://coverr.co ">Coverr</a>.-->
             &copy; 2020
             <a href="http://rotaractmora.org ">
-                <img src="/images/logosrota/New folder (4)/white logo2.png " class="footer-rota-logo" />
+                <img src="/images/logosrota/New folder (4)/white logo2.png " class="footer-rota-logo" alt="Rotaract Club of University of Moratuwa" />
             </a>
         </div>
 

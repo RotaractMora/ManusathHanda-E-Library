@@ -25,12 +25,14 @@ include_once('components/navbar.php');
             <div class="highlights">
                 <!--Selectable categories-->
                 <section>
-                    <div class="content" style="cursor: pointer;" onclick="window.location='./short-stories/marine-drive.php'">
-                        <header>
-                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
-                            <h3>Marine drive</h3>
-                        </header>
-                    </div>
+                    <a href="./short-stories/marine-drive.php">
+                        <div class="content" style="cursor: pointer;">
+                            <header>
+                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <h3>Marine drive</h3>
+                            </header>
+                        </div>
+                    </a>
                 </section>
             </div>
         </div>

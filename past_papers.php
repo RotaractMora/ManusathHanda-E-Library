@@ -25,21 +25,25 @@ include_once('components/navbar.php');
             <div class="highlights" style="justify-content: center;">
                 <!--Selectable categories-->
                 <section>
-                    <div class="content" style="cursor: pointer;" onclick="window.location='./past-papers/past_papers_ol.php';">
-                        <header>
-                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
-                            <h3>G.C.E. Ordinary Level - Past papers</h3>
-                        </header>
-                    </div>
+                    <a href="./past-papers/past_papers_ol.php">
+                        <div class="content" style="cursor: pointer;">
+                            <header>
+                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <h3>G.C.E. Ordinary Level - Past papers</h3>
+                            </header>
+                        </div>
+                    </a>
                 </section>
 
                 <section>
-                    <div class="content" style="cursor: pointer;" onclick="window.location='./past-papers/past_papers_al.php';">
-                        <header>
-                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
-                            <h3>G.C.E. Advanced Level - Past papers</h3>
-                        </header>
-                    </div>
+                    <a href="./past-papers/past_papers_al.php">
+                        <div class="content" style="cursor: pointer;">
+                            <header>
+                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <h3>G.C.E. Advanced Level - Past papers</h3>
+                            </header>
+                        </div>
+                    </a>
                 </section>
 
             </div>
