@@ -64,6 +64,26 @@ include_once('../components/navbar.php');
                         </div>
                     </a>
                 </section>
+                <section>
+                    <a href="./history/magazines_ඉතිහාසය_ලංකා_ඉතිහාසය.php">
+                        <div class="content" style="cursor: pointer;">
+                            <header>
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
+                                <h3>ලංකා ඉතිහාසය</h3>
+                            </header>
+                        </div>
+                    </a>
+                </section>
+                <section>
+                    <a href="./history/magazines_ඉතිහාසය_ලෝක_ඉතිහාසය.php">
+                        <div class="content" style="cursor: pointer;">
+                            <header>
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
+                                <h3>ලෝක ඉතිහාසය</h3>
+                            </header>
+                        </div>
+                    </a>
+                </section>
             </div>
         </div>
     </section>
