@@ -37,5 +37,6 @@ function getNavBar()
             <a aria-hidden="true" href="https://portal.manusathhanda.rotaractmora.org">Donate Your Voice now</a>
         </li>
     </ul>
-</nav>';
+</nav>
+<h1 aria-label="Manusath Handa E-library"></h1>';
 }
