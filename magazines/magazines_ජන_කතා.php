@@ -27,7 +27,7 @@ include_once('../components/navbar.php');
                     <a href="./folk-tales/magazines_ජන_කතා_දේශීය_ජන_කතා.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>දේශීය ජන කතා</h3>
                             </header>
                         </div>
@@ -37,7 +37,7 @@ include_once('../components/navbar.php');
                     <a href="./folk-tales/magazines_ජන_කතා_රට_රට_වල_ජන_කතා.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>රට රට වල ජන කතා</h3>
                             </header>
                         </div>

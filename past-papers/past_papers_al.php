@@ -28,7 +28,7 @@ include_once('../components/navbar.php');
                     <a href="./a-level/AL_past_papers_Buddhist_Civilisation.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>Buddhist Civilisation</h3>
                             </header>
                         </div>
@@ -39,7 +39,7 @@ include_once('../components/navbar.php');
                     <a href="./a-level/AL_past_papers_Communication.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>Communication & Media Studies</h3>
                             </header>
                         </div>
@@ -49,7 +49,7 @@ include_once('../components/navbar.php');
                     <a href="./a-level/AL_past_papers_History.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>History</h3>
                             </header>
                         </div>
@@ -59,7 +59,7 @@ include_once('../components/navbar.php');
                     <a href="./a-level/AL_past_papers_Political_science.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>Political Science</h3>
                             </header>
                         </div>
@@ -69,7 +69,7 @@ include_once('../components/navbar.php');
                     <a href="./a-level/AL_past_papers_Sinhala.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>Sinhala</h3>
                             </header>
                         </div>

@@ -27,7 +27,7 @@ include_once('../components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./spoken-english/beginner/beginner.php'">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                             <h3>Beginners</h3>
                         </header>
                     </div>
@@ -36,7 +36,7 @@ include_once('../components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./spoken-english/intermediate/intermediate.php'">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                             <h3>Intermediate</h3>
                         </header>
                     </div>
@@ -45,7 +45,7 @@ include_once('../components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./spoken-english/advanced/advanced.php'">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                             <h3>Advanced</h3>
                         </header>
                     </div>

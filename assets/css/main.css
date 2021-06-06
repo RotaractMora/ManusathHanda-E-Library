@@ -4484,8 +4484,9 @@ body.is-menu-visible #menu {
 }
 
 @media only screen and (max-width: 700px) {
-    .bottom-blogs #blog-image {
-        width: 100%;
+    .bottom-blogs .blog-image {
+        width: 35% !important;
+        height: auto !important;
     }
     .class-banner-image {
         width: 100%;

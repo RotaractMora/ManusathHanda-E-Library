@@ -29,7 +29,7 @@ include_once('../../components/navbar.php');
                     <a href="./village/magazines_ඉතිහාසය_ගම_එදා_ගමට_ආ_අය.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>එදා ගමට ආ අය</h3>
                             </header>
                         </div>
@@ -39,7 +39,7 @@ include_once('../../components/navbar.php');
                     <a href="./village/magazines_ඉතිහාසය_ගම_ගමරාලගේ_කතාබහා.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>ගමරාලගේ කතාබහ</h3>
                             </header>
                         </div>

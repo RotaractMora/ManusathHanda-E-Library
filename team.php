@@ -18,7 +18,7 @@ include_once('components/navbar.php');
 
     <!-- Heading -->
     <!--<div id="heading_teams">
-        <img src="/images/logosrota/New folder (4)/New folder/logo transperant.png" style="max-width: 300px; height: auto; padding-bottom: 1.0%" />
+        <img src="/images/logosrota/New%20folder%20(4)/New folder/logo transperant.png" style="max-width: 300px; height: auto; padding-bottom: 1.0%" />
         <h1 style="max-width: 100%; height: auto; color: aliceblue; text-align: center;">Team</h1>
     </div>-->
 

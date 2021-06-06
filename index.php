@@ -18,7 +18,7 @@ include_once('components/navbar.php');
 
     <section id="banner">
         <div class="class-banner-image">
-            <img src="/images/logosrota/New folder (4)/New folder/logo transperant4.png" id="banner-image" alt="">
+            <img src="/images/logosrota/New%20folder%20(4)/New folder/logo transperant4.png" id="banner-image" alt="">
             <div id="myCarousel" class="carousel slide" data-ride="carousel" role="listbox">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -30,7 +30,7 @@ include_once('components/navbar.php');
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <p width>This project intends to provide massive support for the visually impaired students in Sri Lanka by offering them audiobooks that cover the subject matter which they learn using the Braille technique. It has been discovered that
+                        <p>This project intends to provide massive support for the visually impaired students in Sri Lanka by offering them audiobooks that cover the subject matter which they learn using the Braille technique. It has been discovered that
                             audiobooks are far more effective, comfortable and can cover the content in a commendable manner while helping the students to hear and learn beyond what they have imagined.</p>
                     </div>
 
@@ -39,7 +39,7 @@ include_once('components/navbar.php');
                     </div>
 
                     <div class="item">
-                        <p width>මෙම ව්‍යාපෘතිය ශ්‍රී ලංකා විභාග දෙපාර්තමේන්තුවේ සහ විජය පුවත්පත් සමාගමේ අවසරය මත සිදු කරන ලද්දකි.</p>
+                        <p>මෙම ව්‍යාපෘතිය ශ්‍රී ලංකා විභාග දෙපාර්තමේන්තුවේ සහ විජය පුවත්පත් සමාගමේ අවසරය මත සිදු කරන ලද්දකි.</p>
                     </div>
 
                     <div class="item">
@@ -78,7 +78,7 @@ include_once('components/navbar.php');
                     <a href="magazines.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>Magazines</h3>
                             </header>
                             <p>Listen to an ever-growing collection of the most popular children's magazines</p>
@@ -89,7 +89,7 @@ include_once('components/navbar.php');
                     <a href="past_papers_medium.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>Past Papers</h3>
                             </header>
                             <p>Listen to the past papers of G.C.E. Ordinary Level and G.C.E. Advanced Level exams in sinhala and tamil mediums.</p>
@@ -100,7 +100,7 @@ include_once('components/navbar.php');
                     <a href="short_stories.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>Short Stories</h3>
                             </header>
                             <p>Listen to a collection of short stories</p>
@@ -111,7 +111,7 @@ include_once('components/navbar.php');
                     <a href="./andurata-athwelak/spoken-english.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>Spoken English course - Andurata Athwelak</h3>
                             </header>
                             <p>Listen to a series of a day to day conversions to improve your spoken english skills.</p>
@@ -123,7 +123,7 @@ include_once('components/navbar.php');
                     <a href="./andurata-athwelak/it-course.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>Basic Computer Knowledge course - Andurata Athwelak</h3>
                             </header>
                             <p>Listen to a growing collection that gives basic computer knowledge for day to day life and corporate work.</p>
@@ -151,7 +151,7 @@ include_once('components/navbar.php');
                 <div class="carousel-inner" style="text-align: center;">
                     <div class="item active">
                         <div>
-                            <img id="blog-image" width="35%" height="auto" src="/images/photo manusath.jpg" alt="">
+                            <img class="blog-image" src="/images/photo%20manusath.jpg" alt="">
                             <div class="post-entry-content">
                                 <div class="content_post_grid">
                                     <p class="selectionShareable">As told by Rtr. Vihanga Jayawickrama “The purpose of life is not to be happy. It is to be useful, to be honourable, to be compassionate,... </p>
@@ -163,7 +163,7 @@ include_once('components/navbar.php');
 
                     <div class="item">
                         <div>
-                            <img id="blog-image" width="35%" height="auto" src="/images/photo manusath2.jpg" alt="">
+                            <img class="blog-image" src="/images/photo%20manusath2.jpg" alt="">
                             <div class="post-entry-content">
                                 <div class="content_post_grid">
                                     <p class="selectionShareable">As written by Rtr. Nushan Vitharana “Open your eyes and see what’s happening in the world” We can see beauty. We can feel life. We... </p>

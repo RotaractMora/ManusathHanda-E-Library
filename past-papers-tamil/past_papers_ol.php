@@ -28,7 +28,7 @@ include_once('../components/navbar.php');
                     <a href="./o-level/past_papers_tamil_literature.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>Appr.Tamil Litreature</h3>
                             </header>
                         </div>
@@ -38,7 +38,7 @@ include_once('../components/navbar.php');
                     <a href="./o-level/past_papers_agri.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>Agriculture</h3>
                             </header>
                         </div>
@@ -48,7 +48,7 @@ include_once('../components/navbar.php');
                     <a href="../past-papers/o-level/past_papers_english.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>English</h3>
                             </header>
                         </div>
@@ -58,7 +58,7 @@ include_once('../components/navbar.php');
                     <a href="./o-level/past_papers_history.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>History</h3>
                             </header>
                         </div>
@@ -68,7 +68,7 @@ include_once('../components/navbar.php');
                     <a href="./o-level/past_papers_health.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>Health & Physcial Science</h3>
                             </header>
                         </div>
@@ -79,7 +79,7 @@ include_once('../components/navbar.php');
                     <a href="./o-level/past_papers_music.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>Music</h3>
                             </header>
                         </div>
@@ -90,7 +90,7 @@ include_once('../components/navbar.php');
                     <a href="./o-level/past_papers_science.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>Science</h3>
                             </header>
                         </div>
@@ -100,7 +100,7 @@ include_once('../components/navbar.php');
                     <a href="./o-level/past_papers_tamil.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>Tamil</h3>
                             </header>
                         </div>

@@ -28,7 +28,7 @@ include_once('components/navbar.php');
                     <a href="./short-stories/marine-drive.php">
                         <div class="content" style="cursor: pointer;">
                             <header>
-                                <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                                 <h3>Marine drive</h3>
                             </header>
                         </div>

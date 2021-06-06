@@ -39,27 +39,27 @@
                         <!--<strong>Post</strong>-->
                         <a href="mailto:sithiraliyanage@gmail.com">sithiraliyanage@gmail.com</a>
                     </li>
-                    <!--<li><a href="# ">Etiam vel lorem sed amet.</a></li>
-								<li><a href="# ">Felis enim feugiat viverra.</a></li>
-								<li><a href="# ">Dolor pulvinar magna etiam.</a></li>-->
+                    <!--<li><a href="#">Etiam vel lorem sed amet.</a></li>
+								<li><a href="#">Felis enim feugiat viverra.</a></li>
+								<li><a href="#">Dolor pulvinar magna etiam.</a></li>-->
                 </ul>
             </section>
             <section>
                 <h4>Follow Us</h4>
-                <ul class="plain ">
-                    <li><a href="https://twitter.com/RotaractMora "><i class="icon fa-twitter ">&nbsp;</i>Twitter</a>
+                <ul class="plain">
+                    <li><a href="https://twitter.com/RotaractMora"><i class="icon fa-twitter">&nbsp;</i>Twitter</a>
                     </li>
-                    <li><a href="https://www.facebook.com/rotaractmora/ "><i class="icon fa-facebook ">&nbsp;</i>Facebook</a></li>
-                    <li><a href="https://www.instagram.com/rotaractmora/ "><i class="icon fa-instagram ">&nbsp;</i>Instagram</a></li>
-                    <li><a href="https://www.linkedin.com/company/rotaract-club-of-university-of-moratuwa/about/ "><i class="icon fa fa-linkedin-square ">&nbsp;</i>LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/rotaractmora/"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+                    <li><a href="https://www.instagram.com/rotaractmora/"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/company/rotaract-club-of-university-of-moratuwa/about/"><i class="icon fa fa-linkedin-square">&nbsp;</i>LinkedIn</a></li>
                 </ul>
             </section>
         </div>
-        <div class="copyright ">
-            <!--&copy; RotaractMora. Photos <a href="https://unsplash.co ">Unsplash</a>, Video <a href="https://coverr.co ">Coverr</a>.-->
+        <div class="copyright">
+            <!--&copy; RotaractMora. Photos <a href="https://unsplash.co">Unsplash</a>, Video <a href="https://coverr.co">Coverr</a>.-->
             &copy; 2020
-            <a href="http://rotaractmora.org ">
-                <img src="/images/logosrota/New folder (4)/white logo2.png " class="footer-rota-logo" alt="Rotaract Club of University of Moratuwa" />
+            <a href="http://rotaractmora.org">
+                <img src="/images/logosrota/New%20folder%20(4)/white logo2.png" class="footer-rota-logo" alt="Rotaract Club of University of Moratuwa" />
             </a>
         </div>
 
@@ -67,20 +67,18 @@
 </footer>
 
 <!-- Scripts -->
-<script src="/assets/js/jquery.min.js "></script>
-<script src="/assets/js/browser.min.js "></script>
-<script src="/assets/js/breakpoints.min.js "></script>
-<script src="/assets/js/util.js "></script>
-<script src="/assets/js/main.js "></script>
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/browser.min.js"></script>
+<script src="/assets/js/breakpoints.min.js"></script>
+<script src="/assets/js/util.js"></script>
+<script src="/assets/js/main.js"></script>
 <script>
     function navigateToRotaMora() {
-        console.log("method ");
         window.location.href = 'http://rotaractmora.org';
 
     }
 
     function navigateToIndex() {
-        console.log("method ");
         window.location.href = '/';
 
     }

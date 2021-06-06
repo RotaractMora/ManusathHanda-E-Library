@@ -27,7 +27,7 @@ include_once('../../../components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./conversations.php'">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                             <h3>Conversations</h3>
                         </header>
                     </div>
@@ -36,7 +36,7 @@ include_once('../../../components/navbar.php');
                 <section>
                     <div class="content" style="cursor: pointer;" onclick="window.location='./conversations-with-translation.php'">
                         <header>
-                            <img src="/images/audiobook-icon-66.png" alt="" width="50%" />
+                            <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
                             <h3>Conversations (With Translation)</h3>
                         </header>
                     </div>
