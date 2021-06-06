@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <link rel="icon" href="/images/logosrota/New%20folder%20(4)//Colour logo tab_icon.png">
+    <link rel="icon" href="/images/logosrota/New%20folder%20(4)//Colour%20logo%20tab_icon.png">
     <link rel="stylesheet" href="./assets/css/main.css" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->

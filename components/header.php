@@ -17,7 +17,7 @@ function getHeader($title)
     />
     <meta property="og:image" content="https://manusathhanda.rotaractmora.org/images/og_icon.jpg" />
     <meta property="og:url" content="https://manusathhanda.rotaractmora.org" />
-    <link rel="icon" href="/images/logosrota/New%20folder%20(4)//Colour logo tab_icon.png">
+    <link rel="icon" href="/images/logosrota/New%20folder%20(4)//Colour%20logo%20tab_icon.png">
     <link rel="stylesheet" href="/assets/css/main.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144825636-4"></script>

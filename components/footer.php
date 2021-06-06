@@ -5,7 +5,7 @@
                 <h4>Related Links</h4>
                 <div class="related-links">
                     <img class="national-emblem" alt="Sri Lanka National Emblem" src="/images/Emblem_of_Sri_Lanka.png" />
-                    <p>This E library is accredited by the <a href="https://doenets.lk /">Department of Examinations of Sri Lanka</a></p>
+                    <p>This E library is accredited by the <a href="https://doenets.lk/">Department of Examinations of Sri Lanka</a></p>
                 </div>
                 <h4>About Us</h4>
                 <p>Rotaract Mora has grown tremendously to a present member base of over 250 members. Rotaract Mora over the years has earned much recognition in the Rotaract movement, bagging multiple local, as well as international awards, and doing
@@ -59,7 +59,7 @@
             <!--&copy; RotaractMora. Photos <a href="https://unsplash.co">Unsplash</a>, Video <a href="https://coverr.co">Coverr</a>.-->
             &copy; 2020
             <a href="http://rotaractmora.org">
-                <img src="/images/logosrota/New%20folder%20(4)/white logo2.png" class="footer-rota-logo" alt="Rotaract Club of University of Moratuwa" />
+                <img src="/images/logosrota/New%20folder%20(4)/white%20logo2.png" class="footer-rota-logo" alt="Rotaract Club of University of Moratuwa" />
             </a>
         </div>
 

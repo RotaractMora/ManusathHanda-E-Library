@@ -18,7 +18,7 @@ include_once('components/navbar.php');
 
     <section id="banner">
         <div class="class-banner-image">
-            <img src="/images/logosrota/New%20folder%20(4)/New folder/logo transperant4.png" id="banner-image" alt="">
+            <img src="/images/logosrota/New%20folder%20(4)/New%20folder/logo%20transperant4.png" id="banner-image" alt="">
             <div id="myCarousel" class="carousel slide" data-ride="carousel" role="listbox">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">

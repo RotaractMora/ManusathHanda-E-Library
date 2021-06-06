@@ -5,7 +5,7 @@ function getNavBar()
     return '<header id="header">
     <div>
         <a href="/">
-            <img src="/images/logosrota/New%20folder%20(4)/New folder/logo transperant3.png" class="header-logo2" alt="Manusath Handa E-library" />
+            <img src="/images/logosrota/New%20folder%20(4)/New%20folder/logo%20transperant3.png" class="header-logo2" alt="Manusath Handa E-library" />
         </a>
     </div>
     <div></div>
