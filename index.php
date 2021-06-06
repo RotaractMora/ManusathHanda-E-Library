@@ -17,6 +17,7 @@ include_once('components/navbar.php');
     <?php echo getNavBar(); ?>
 
     <section id="banner">
+        <h2 style="display: none;">Banner</h2>
         <div class="class-banner-image">
             <img src="/images/logosrota/New%20folder%20(4)/New%20folder/logo%20transperant4.png" id="banner-image" alt="">
             <div id="myCarousel" class="carousel slide" data-ride="carousel" role="listbox">
