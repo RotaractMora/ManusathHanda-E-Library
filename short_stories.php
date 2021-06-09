@@ -34,6 +34,16 @@ include_once('components/navbar.php');
                         </div>
                     </a>
                 </section>
+                <section>
+                    <a href="./short-stories/රත්තරන්-ආසාව.php">
+                        <div class="content" style="cursor: pointer;">
+                            <header>
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
+                                <h3>රත්තරන් ආසාව</h3>
+                            </header>
+                        </div>
+                    </a>
+                </section>
             </div>
         </div>
     </section>
