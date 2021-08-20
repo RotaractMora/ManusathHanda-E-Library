@@ -44,6 +44,26 @@ include_once('components/navbar.php');
                         </div>
                     </a>
                 </section>
+                <section>
+                    <a href="./short-stories/ජන-කතා.php">
+                        <div class="content" style="cursor: pointer;">
+                            <header>
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
+                                <h3>ජන කතා</h3>
+                            </header>
+                        </div>
+                    </a>
+                </section>
+                <section>
+                    <a href="./short-stories/අන්තිම-උපාය.php">
+                        <div class="content" style="cursor: pointer;">
+                            <header>
+                                <img src="/images/audiobook-icon-66.png" alt="" class="audiobook-icon" />
+                                <h3>අන්තිම උපාය</h3>
+                            </header>
+                        </div>
+                    </a>
+                </section>
             </div>
         </div>
     </section>

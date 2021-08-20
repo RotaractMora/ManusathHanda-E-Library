@@ -10,7 +10,7 @@ include_once('../components/navbar.php');
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html lang="en">
-<?php echo getHeader(' | Short stories | රත්තරන් ආසාව'); ?>
+<?php echo getHeader(' | Short stories | ජන කතා'); ?>
 
 <body class="is-preload">
 	<!-- Header -->
@@ -18,17 +18,17 @@ include_once('../components/navbar.php');
 
 	<!-- Heading -->
 	<section id="audio-page-banner">
-		<p>Short Stories</p>
+		<p>ජන කතා</p>
 	</section>
 
 	<!-- Main -->
 	<div class="container">
 		<br />
-		<h2>රත්තරන් ආසාව</h2>
+		<h2>ජන කතා</h2>
 		<div class="panel-group" id="accordion">
 
 			<?php
-			$dir = scandir("../short_stories/රත්තරන්_ආසාව/");
+			$dir = scandir("../short_stories/ජන_කතා/");
 			$c = count($dir);
 			sort($dir, 1);
 			for ($x = 0; $x < $c; $x++) {
@@ -44,13 +44,13 @@ include_once('../components/navbar.php');
 					echo '<div id="collapse' . $x . '" class="panel-collapse collapse">';
 					echo '<br>';
 					echo '<audio controls preload="none">';
-					echo '<source src=' . '"/short_stories/රත්තරන්_ආසාව/' . $file . '"';
+					echo '<source src=' . '"/short_stories/ජන_කතා/' . $file . '"';
 
 					echo ' type="audio/mp3">';
 					echo 'Your browser does not support the audio element.';
 					echo '</audio>';
 					echo '<script type="text/javascript" src="/test.js"></script>';
-					echo '<a href="/download.php?file=./short_stories/රත්තරන්_ආසාව/' . $file . '"';
+					echo '<a href="/download.php?file=./short_stories/ජන_කතා/' . $file . '"';
 					echo '>';
 					echo '<img src="/images/downloads-icon.png" alt="Download file">';
 					echo '</a>';
